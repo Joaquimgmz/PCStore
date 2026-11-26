@@ -1,0 +1,241 @@
+TechStore — Como funciona o Back-end
+Guia de estudo para o grupo. Aqui explicamos, com palavras simples, tudo o que o back-end do site faz e como cada arquivo funciona.
+
+1. O que é o back-end?
+Voltando ao restaurante: o front-end é o salão e o back-end é a cozinha. O cliente faz o pedido no salão, mas é na cozinha que se confere se o prato existe, se o preço está certo e se o pedido fica anotado.
+No TechStore, o back-end é um programa que fica rodando no computador e "responde" ao site. Ele faz quatro coisas:
+- Guarda os dados (produtos, kits, cupons e pedidos) em um banco de dados.
+- Entrega o catálogo para o front-end desenhar a loja.
+- Confere cupons (o cupom existe? quanto de desconto dá?).
+- Registra os pedidos, calculando todos os valores com segurança.
+Também é ele que entrega os arquivos do site (a pasta public/) para o navegador.
+
+2. Tecnologias usadas
+- Node.js: permite rodar JavaScript fora do navegador, no computador. Escolhemos porque o front também é JavaScript, então o projeto inteiro usa uma linguagem só.
+- Express: uma biblioteca que facilita criar um servidor. Com ela, dizemos "quando chegar um pedido neste endereço, execute esta função".
+- SQLite: um banco de dados que fica em um único arquivo (data/techstore.db). Não precisa instalar nem configurar nada.
+- better-sqlite3: a biblioteca que liga o Node ao SQLite. Ela é "síncrona": a consulta roda e já devolve a resposta, sem a complicação de callbacks ou async/await.
+- npm: o gerenciador de pacotes do Node. O comando npm install baixa o Express e o better-sqlite3.
+
+3. Conceitos básicos (leia antes do código)
+- Servidor: um programa que fica esperando pedidos e responde a eles.
+- Requisição (request): o pedido que o navegador envia. Exemplo: "me dê o catálogo".
+- Resposta (response): o que o servidor devolve.
+- API: o conjunto de endereços pelos quais o front conversa com o back. No nosso caso, todos começam com /api.
+- Rota: um endereço da API que tem uma função. Exemplo: /api/catalog.
+- Método HTTP: o tipo de pedido. GET serve para ler, POST serve para criar.
+- JSON: o formato de texto que usamos para trocar dados. Exemplo: {"valid": true, "percent": 0.1}.
+- Código de status: um número que resume o resultado. 200 deu certo, 201 foi criado, 400 o pedido veio errado, 404 não encontrado, 500 erro no servidor.
+- Middleware: uma função que roda antes da rota, como um porteiro. Exemplo: express.json() lê o JSON que chegou.
+
+4. Mapa dos arquivos
+techstore/
+├── server.js            ponto de entrada
+├── package.json         lista de depêndencias e comandos
+├── data/catalog.json    dados iniciais (372 produtos, kits, promoções)
+├── src/
+│   ├── database.js      liga o banco e cria as tabelas
+│   ├── seed.js          copia o catalog.json para o banco
+│   ├── queries.js       consultas ao banco que se repetem
+│   ├── pricing.js       regras de preço e desconto
+│   └── routes/
+│       ├── catalog.js   GET  /api/catalog
+│       ├── coupons.js   GET  /api/coupons/:code
+│       └── orders.js    POST /api/orders e GET /api/orders/:code
+└── public/              o front-end
+
+A ideia de dividir assim se chama separação em camadas. Cada arquivo faz uma coisa só:
+- Rotas recebem o pedido e conferem os dados.
+- Queries conversam com o banco.
+- Pricing aplica as regras de negócio (descontos).
+- Database cuida da conexão e das tabelas.
+Se precisarmos mudar uma regra de desconto, mexemos só em pricing.js. Se mudarmos de banco de dados, mexemos quase só em database.js e queries.js.
+
+5. O que acontece ao rodar npm start
+1. O Node executa server.js.
+2. seedIfEmpty() confere se o banco está vazio. Se estiver (primeira vez), carrega o catálogo.
+3. O Express é criado e recebe o middleware express.json().
+4. As rotas da API são registradas.
+5. A pasta public/ é liberada para o navegador.
+6. O servidor começa a "escutar" na porta 3000 e mostra TechStore rodando em http://localhost:3000.
+
+6. server.js — o ponto de entrada
+O arquivo tem quatro blocos.
+- Bloco 1: preparar. Importa o Express e chama seedIfEmpty(). A porta é process.env.PORT || 3000, ou seja, usa a porta definida no computador ou, se não houver, a 3000.
+- Bloco 2: middleware. A linha app.use(express.json({ limit: '100kb' })) faz o Express ler o corpo JSON de cada pedido e colocá-lo em req.body. O limite de 100 KB impede que alguém envie um pedido gigante para travar o servidor.
+- Bloco 3: rotas.
+  app.use('/api/catalog', require('./src/routes/catalog'));
+  app.use('/api/coupons', require('./src/routes/coupons'));
+  app.use('/api/orders',  require('./src/routes/orders'));
+  Cada linha diz: "tudo que começar com este endereço é tratado por este arquivo". Depois vem uma rota "pega-tudo" para /api: se ninguém respondeu, devolve 404 com Rota não encontrada.
+- Bloco 4: arquivos do site e erros. express.static entrega o conteúdo de public/ (o index.html, o CSS e o JS). Por fim, há o tratador de erros: se algo quebrar, ele responde Erro interno do servidor (500) e escreve o detalhe só no terminal. O cliente nunca vê detalhes internos. Se o JSON enviado vier quebrado, a resposta é 400 com JSON inválido.
+
+Importante: a ordem importa. As rotas da API vêm antes dos arquivos estáticos.
+Só a pasta public/ fica visível para o navegador. As pastas src/ e data/ (com o banco) não são acessíveis de fora.
+
+7. database.js — o banco e as tabelas
+Este arquivo abre o arquivo do banco (data/techstore.db, criado se não existir) e executa os comandos CREATE TABLE IF NOT EXISTS, que significam "crie a tabela se ainda não existir". Também liga foreign_keys, para o banco respeitar as ligações entre tabelas.
+Uma tabela é como uma planilha: cada coluna é um tipo de informação e cada linha é um registro. Palavras que aparecem:
+- PRIMARY KEY (chave primária): a coluna que identifica cada linha de forma única, como o CPF de uma pessoa.
+- FOREIGN KEY / REFERENCES (chave estrangeira): liga uma tabela a outra. Exemplo: um item de pedido aponta para o pedido a que pertence.
+- NOT NULL: a coluna não pode ficar vazia.
+- UNIQUE: não pode haver dois valores iguais.
+- DEFAULT: o valor usado quando nada é informado.
+
+As tabelas:
+- products — os produtos. Colunas: id, position (a ordem original), cat (departamento), brand, name, price (preço atual), list (preço "de"), attr e specs (guardados como texto JSON), hot (mais vendido) e esq (faz parte do Esquenta Black Friday).
+- highlights — liga um nome de promoção (como f16 ou rtx5060) a um produto. É o que a home e os post-its usam.
+- kits e kit_items — os kits de upgrade e os produtos de cada um, com a posição na lista.
+- coupons — cupons. percent 0.10 significa 10%. active permite desligar um cupom sem apagá-lo.
+- orders — os pedidos. Guarda código (como TS-482913), forma de pagamento, cupom, subtotal, cada desconto, frete, total e a data.
+- order_items — os itens de cada pedido, ligados ao pedido por order_id.
+
+Por que copiar nome e preço nos itens do pedido?
+Os itens do pedido guardam name e unit_price copiados do produto no momento da compra. Se o preço mudar amanhã, um pedido antigo continua mostrando o valor que realmente foi pago. É o mesmo motivo pelo qual a nota fiscal não muda quando o preço da loja muda.
+
+Por que attr e specs são texto JSON?
+Cada produto tem especificações diferentes (um processador tem núcleos, um monitor tem polegadas). Em vez de criar centenas de colunas, guardamos esses dados como texto JSON e convertemos de volta com JSON.parse quando lemos. É uma solução simples, boa para um projeto deste tamanho.
+
+8. seed.js — a carga inicial
+"Seed" significa "semente". Este arquivo lê o catalog.json e coloca tudo no banco: produtos, promoções, kits e o cupom TECH10.
+Pontos importantes:
+- seedIfEmpty() roda toda vez que o servidor liga. Ele conta os produtos; se for zero, chama seed(). Assim o projeto funciona com um único npm start.
+- seed() apaga os dados antigos (na ordem certa, porque tabelas dependem umas das outras) e insere de novo. Os pedidos não são apagados.
+- Tudo acontece dentro de uma transação (db.transaction): ou grava tudo, ou não grava nada. Assim o banco nunca fica "pela metade".
+- O if (require.main === module) no fim faz o arquivo rodar sozinho quando usamos npm run seed, mas não quando ele é apenas importado pelo servidor.
+- O símbolo ? nos comandos SQL é um parâmetro: o valor vai separado do texto do comando. Veja a explicação de segurança na seção 13.
+
+9. queries.js — as consultas reutilizáveis
+Aqui ficam as perguntas que fazemos ao banco. Todas usam db.prepare(...) seguido de um destes comandos:
+- .all(): devolve todas as linhas encontradas (uma lista).
+- .get(): devolve uma linha (ou nada, se não achar).
+- .run(): executa um comando que grava (inserir, apagar).
+
+As funções do arquivo:
+- getProducts(): lê todos os produtos, na ordem original, e converte attr e specs de texto para objeto (usando rowToProduct). O formato de saída é igual ao que o front já usava.
+- findProduct(id): busca um produto (só id, name e price) ou devolve undefined se não existir.
+- getHighlights(): devolve um objeto como { f16: "asus-tuf...", rtx5060: "..." }.
+- getKits(): devolve a lista de kits, cada um com nome, descrição e os id dos três produtos.
+- findCoupon(code): busca um cupom ativo. Aceita letras minúsculas e espaços (" tech10 " vira TECH10).
+
+10. pricing.js — as regras de preço
+Este arquivo tem uma função, calculateTotals. Ela é "pura": só recebe dados e devolve o resultado, sem mexer no banco nem na internet. Isso a torna fácil de testar e de explicar.
+Constantes no topo: KIT_DISCOUNT = 0.05, PIX_DISCOUNT = 0.10, FREE_SHIPPING_FROM = 299 e SHIPPING_FEE = 29.9. Se uma regra mudar, trocamos um número.
+O que ela recebe: os itens do carrinho (com o preço vindo do banco), os kits, a porcentagem do cupom (0 se não houver) e a forma de pagamento.
+
+Os cálculos, em ordem:
+- Subtotal: soma de preço × quantidade.
+- Desconto de kit: para cada kit, descobre quantos kits completos há no carrinho. Isso é feito com Math.min sobre a quantidade de cada item do kit. Exemplo: se o kit tem 3 itens e o carrinho tem 2, 1 e 2 unidades deles, há 1 kit completo (o menor número). Cada kit completo dá 5% sobre o preço dos seus itens.
+- Cupom: a porcentagem do cupom sobre (subtotal − desconto de kit).
+- Desconto PIX: 10% sobre o que restou, apenas se o pagamento for pix.
+- Frete: grátis se o subtotal for 299 ou mais (ou se o carrinho estiver vazio); senão R$ 29,90.
+- Total = subtotal − kit − cupom − PIX + frete.
+
+A função auxiliar round2 arredonda cada valor para 2 casas decimais (centavos).
+
+Exemplo (Kit Gamer AM5 + cupom TECH10 + PIX):
+- Subtotal: R$ 4.297,00
+- Kit (5%): − R$ 214,85
+- Cupom (10% de 4.082,15): − R$ 408,22
+- PIX (10% de 3.673,93): − R$ 367,39
+- Frete: grátis
+- Total: R$ 3.306,54
+A conta do front-end é igual a esta, e testamos com 300 carrinhos aleatórios sem nenhuma diferença.
+
+11. As rotas
+Cada arquivo em routes/ cria um express.Router() (um mini-servidor de uma parte da API) e define o que fazer. Dentro de cada rota, req é o pedido recebido e res é a resposta que vamos enviar.
+
+11.1 GET /api/catalog (catalog.js)
+A mais simples. Devolve, em JSON, três coisas: products (todos os produtos), promo (as promoções) e kits. O front chama essa rota uma vez, ao abrir o site, e depois faz busca, filtros e ordenação por conta própria.
+
+11.2 GET /api/coupons/:code (coupons.js)
+O :code é uma parte variável do endereço, lida com req.params.code. Exemplo: /api/coupons/tech10.
+- Se o cupom existe: { "valid": true, "code": "TECH10", "percent": 0.1 }.
+- Se não existe: { "valid": false }.
+Cupom que não existe não é um erro do servidor, é uma resposta normal, por isso o status é 200.
+
+11.3 POST /api/orders (orders.js) — criar o pedido
+A rota mais importante. O front envia um JSON assim:
+{
+  "items": { "amd-ryzen-7-7800x3d": 1 },
+  "coupon": "TECH10",
+  "payment": "pix"
+}
+Note que não há preço no pedido. Só o id do produto e a quantidade. A rota segue cinco etapas:
+- Etapa 1: validar o que chegou. Se items não existir, não for um objeto ou estiver vazio, responde 400 O carrinho está vazio. Se payment não for pix nem card, responde 400 Forma de pagamento inválida.
+- Etapa 2: buscar cada produto no banco. Para cada item, usa findProduct(id). Se o produto não existe: 400 Produto não encontrado. Se a quantidade não for um número inteiro entre 1 e 99: 400 Quantidade inválida. O preço usado vem do banco.
+- Etapa 3: conferir o cupom (se houver). Usa findCoupon. Se o cupom não existir, responde 400 O cupom ... não existe.
+- Etapa 4: calcular. Chama calculateTotals com os itens, os kits, a porcentagem do cupom e o pagamento.
+- Etapa 5: gravar. Gera um código com newOrderCode() (TS- mais 6 números sorteados; se o código já existir, sorteia outro). Depois, dentro de uma transação, insere o pedido em orders e cada item em order_items. O lastInsertRowid é o número que o banco deu ao pedido, usado para ligar os itens a ele.
+A resposta é 201 (criado) com o código, o pagamento, o cupom e todos os valores calculados. O front mostra o código e o total na tela "Pedido feito!".
+
+11.4 GET /api/orders/:code — consultar um pedido
+Busca o pedido pelo código (aceita minúsculas). Se não achar, responde 404 Pedido não encontrado. Se achar, devolve os dados do pedido e a lista de itens. O front atual não usa essa rota, mas ela mostra que os pedidos ficam realmente salvos.
+
+12. Erros: o que o servidor responde
+- {} ou carrinho vazio → 400, O carrinho está vazio.
+- Produto que não existe → 400, Produto não encontrado: ...
+- Quantidade 0, negativa, decimal ou acima de 99 → 400, Quantidade inválida ...
+- Pagamento diferente de pix ou card → 400, Forma de pagamento inválida.
+- Cupom falso → 400, O cupom ... não existe.
+- JSON quebrado → 400, JSON inválido.
+- Pedido inexistente → 404, Pedido não encontrado.
+- Rota que não existe em /api → 404, Rota não encontrada.
+- Bug inesperado → 500, Erro interno do servidor.
+O front lê o campo error dessas respostas e mostra a mensagem num aviso (toast).
+
+13. Segurança (o que fizemos e por quê)
+- O servidor não confia no navegador. O navegador pode ser alterado por qualquer pessoa. Por isso o preço nunca é enviado pelo front: o servidor busca o preço no banco e refaz todas as contas. Mesmo que alguém tente mandar "price": 1, o campo é ignorado.
+- SQL com parâmetros (?). Nunca juntamos texto do usuário dentro do comando SQL. O valor vai separado. Isso impede o ataque chamado SQL Injection, em que alguém escreve um comando SQL num campo de texto para invadir o banco.
+- Validação de tudo que chega. Conferimos tipo, quantidade, pagamento, produto e cupom antes de usar.
+- Transação. Pedido e itens são gravados juntos, para nunca existir pedido sem itens.
+- Limite no tamanho do pedido (100 KB).
+- Erros sem detalhes. O cliente vê uma mensagem genérica; o detalhe técnico fica só no terminal.
+- Arquivos protegidos. Só public/ é entregue ao navegador.
+- O que ainda não tem (um sistema real teria): login de clientes, pagamento de verdade, controle de estoque, limite de requisições por pessoa e HTTPS.
+
+14. A viagem completa de uma compra
+1. O cliente abre o site. O front chama GET /api/catalog e desenha a loja.
+2. Ele adiciona produtos. Isso fica só no front (no cart e no localStorage).
+3. Ele digita TECH10. O front chama GET /api/coupons/TECH10 e recebe valid: true.
+4. Ele clica em "Finalizar pedido". O front envia POST /api/orders com itens, cupom e pagamento.
+5. O servidor valida, busca os preços no banco e calcula os descontos.
+6. O servidor grava o pedido e os itens e responde 201 com o código e o total.
+7. O front mostra "Pedido feito!" e esvazia o carrinho.
+
+15. Como testar o back-end
+- Pelo navegador: com o servidor ligado, abra http://localhost:3000/api/catalog e veja o JSON do catálogo. Também funciona http://localhost:3000/api/coupons/TECH10.
+- Pelo terminal (comando curl), para criar um pedido:
+  curl -X POST http://localhost:3000/api/orders \
+    -H "Content-Type: application/json" \
+    -d '{"items":{"amd-ryzen-7-7800x3d":1},"coupon":"TECH10","payment":"pix"}'
+  Depois consulte o pedido com curl http://localhost:3000/api/orders/TS-123456 (troque pelo código recebido).
+- Para ver o banco: abra o arquivo data/techstore.db com o programa gratuito DB Browser for SQLite. Lá dá para ver as tabelas orders e order_items com os pedidos feitos.
+- Para recarregar o catálogo do zero: npm run seed.
+
+16. Perguntas que podem aparecer
+- Por que SQLite e não MySQL ou PostgreSQL? Porque não exige instalar nada. O SQL é muito parecido, e trocar de banco mexeria quase só em database.js e queries.js.
+- O que é uma API REST? Um jeito de organizar as rotas por "coisas" (como orders) e usar os métodos HTTP (GET lê, POST cria), devolvendo JSON.
+- O que é middleware? Uma função que roda antes da rota. Exemplo: express.json(), que transforma o corpo do pedido em req.body.
+- Por que o servidor recalcula o preço se o front já calculou? Porque o front pode ser alterado por quem usa o site. O front calcula para ser rápido; o servidor calcula para ser confiável.
+- O que é uma transação? Um conjunto de comandos que ou acontecem todos, ou nenhum. Evita dados pela metade.
+- O que é SQL Injection e como evitamos? É inserir comandos SQL num campo de texto para atacar o banco. Evitamos usando parâmetros (?) em vez de juntar textos.
+- O que é o seed? A carga inicial do banco a partir de data/catalog.json.
+- Por que guardar nome e preço dentro de order_items? Para o pedido antigo não mudar se o produto mudar de preço depois.
+- Por que usar REAL para dinheiro? É simples e arredondamos a cada etapa. Em um sistema grande, o ideal seria guardar centavos como número inteiro, para evitar pequenos erros de decimais.
+- O que acontece se dois pedidos chegarem juntos? O better-sqlite3 executa um comando por vez, então não há conflito neste projeto.
+
+17. Glossário rápido
+- Back-end: a parte do sistema que roda no servidor e cuida dos dados e das regras.
+- Servidor: programa que espera pedidos e responde.
+- Banco de dados: onde as informações ficam guardadas de forma organizada.
+- Tabela: como uma planilha, com colunas e linhas.
+- SQL: a linguagem usada para conversar com o banco.
+- Rota: um endereço da API com uma função.
+- Endpoint: o mesmo que rota (um ponto de acesso da API).
+- JSON: formato de texto para trocar dados.
+- Validação: conferir se os dados recebidos fazem sentido.
+- Transação: tudo grava ou nada grava.
+- Seed: carga inicial de dados.
+- npm: gerenciador que instala as bibliotecas do projeto.
+- Dependência: uma biblioteca que o projeto usa (Express, better-sqlite3).

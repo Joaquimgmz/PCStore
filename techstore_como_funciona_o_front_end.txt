@@ -1,0 +1,249 @@
+TechStore — Como funciona o Front-end
+Guia de estudo para o grupo. Aqui explicamos, com palavras simples, tudo o que o front-end do site faz e como o código funciona.
+
+1. O que é o front-end?
+Pense em um restaurante. O front-end é o salão: o que o cliente vê e usa (mesas, cardápio, atendimento). O back-end é a cozinha: onde o trabalho pesado acontece, longe dos olhos do cliente.
+No TechStore, o front-end é tudo o que aparece no navegador: a foto do cenário, o monitor, os post-its, a loja dentro da tela, o carrinho e os botões. Ele é feito com três tecnologias:
+- HTML: o esqueleto da página (quais caixas existem).
+- CSS: a aparência (cores, tamanhos, posições, fontes).
+- JavaScript: o comportamento (o que acontece quando clicamos, digitamos ou rolamos).
+
+2. Os três arquivos do front
+Tudo fica na pasta public/:
+- index.html: a estrutura da página.
+- css/style.css: o visual.
+- js/script.js: toda a lógica (é o maior arquivo, porque guarda também as imagens embutidas).
+O navegador abre o index.html, que carrega o CSS e o JavaScript. Depois disso, o JavaScript pede o catálogo ao back-end e monta a loja na tela.
+
+3. A ideia principal do site
+A loja inteira "mora" dentro da tela de um monitor que aparece numa foto. Por isso o site tem duas camadas:
+- O cenário: a foto do quarto, com monitor, plantas, lâmpada de lava e post-its.
+- A loja: uma página de e-commerce normal, encaixada exatamente na tela do monitor da foto.
+O grande desafio é fazer a loja ficar sempre alinhada com o monitor, em qualquer tamanho de janela. Isso é resolvido por uma função chamada layout() (explicada na seção 6).
+
+4. O HTML (index.html)
+O HTML é curto. Ele só cria as "caixas" vazias. O conteúdo (produtos, cartões, carrinho) é preenchido depois pelo JavaScript.
+As caixas principais, de fora para dentro:
+- stage (palco): a caixa gigante com o tamanho da foto (2576 × 1438 pixels). Tudo fica dentro dela.
+- notes: onde os post-its são colocados.
+- screen: a janela que cobre a tela do monitor.
+- viewport: a área onde a loja é desenhada.
+- scroller: a parte que rola para cima e para baixo.
+- site: o site em si, com a faixa de promoção (strip), o cabeçalho fixo (sticky), as abas, o conteúdo (main) e o rodapé.
+- shade: uma camada escura que aparece atrás do modal ou do carrinho.
+- modal: a janela de detalhes do produto.
+- drawer: a gaveta do carrinho, que desliza pela lateral.
+- toast: o aviso pequeno que aparece e some ("Cupom aplicado").
+- zoombtn: o botão de ampliar o monitor.
+Vários elementos têm atributos de acessibilidade, como aria-label, role="dialog" e aria-pressed. Eles ajudam pessoas que usam leitor de tela e navegação pelo teclado. Também usamos tags com significado (main, nav, aside, footer), que deixam a página mais organizada.
+
+5. O CSS (style.css)
+5.1 Variáveis de cor e fonte
+No começo do arquivo, o bloco :root guarda variáveis: cores e fontes que o resto do CSS reaproveita. Exemplos: --bg (fundo escuro), --blue (azul de destaque), --ink (cor do texto). Se quisermos mudar o azul do site inteiro, trocamos em um lugar só.
+As fontes usadas são:
+- Anton: títulos de promoção, bem grossos.
+- Permanent Marker: letra de caneta nos post-its.
+- Archivo: o texto normal da loja.
+- JetBrains Mono: números e detalhes técnicos.
+Todas vêm do Google Fonts. Cada uma tem uma fonte reserva caso a internet falhe.
+
+5.2 Palco e tela
+O .stage tem tamanho fixo (o da foto) e é escalado pelo JavaScript. A .screen é posicionada com porcentagens sobre o monitor da foto, por isso continua alinhada mesmo quando a foto muda de tamanho. Por cima da tela existe um brilho de vidro, criado com um gradiente, para dar a impressão de um monitor de verdade.
+
+5.3 Container queries
+Normalmente o CSS muda o layout conforme a largura da janela do navegador. Aqui a loja está dentro de um monitor pequeno, então isso não serve. Usamos @container: o layout muda conforme a largura do monitor, e não da janela. Quando o monitor fica estreito, a loja passa para menos colunas.
+
+5.4 Outros detalhes
+- Os post-its usam mix-blend-mode: multiply, que mistura a cor do papel com a foto e deixa tudo mais realista.
+- O sublinhado desenhado dos post-its usa stroke-dashoffset, uma técnica que faz o traço parecer ser desenhado ao passar o mouse.
+- Existe uma regra prefers-reduced-motion: se a pessoa pediu "menos animação" no sistema dela, o site desliga as animações.
+
+6. O JavaScript (script.js) — parte por parte
+O arquivo segue uma ordem. Vamos explicar na mesma ordem.
+
+6.1 Como o script começa
+As imagens ficam no topo (BGSRC e FX_MASKS). Depois, todo o código da loja está dentro de uma função chamada iniciarLoja(CAT).
+No final do arquivo está o comando que dá a partida:
+fetch('/api/catalog')
+  .then(r => r.json())
+  .then(iniciarLoja)
+Traduzindo: "peça o catálogo ao back-end; quando chegar, chame iniciarLoja entregando o catálogo". Por isso a loja só aparece depois que o catálogo chega. Se o servidor não estiver ligado, aparece uma mensagem pedindo para rodar npm start.
+
+6.2 Imagens embutidas
+BGSRC é a foto de fundo guardada como texto (formato base64). Isso permite carregar a foto junto com o JavaScript, sem arquivo separado. FX_MASKS guarda três imagens pequenas usadas nos efeitos animados.
+
+6.3 Ícones e departamentos
+- ICON é uma lista de desenhos (SVG) para cada departamento.
+- DEPTS é a lista dos 13 departamentos (Processadores, Placas de vídeo, Memória RAM etc.). Cada um tem: chave (k), nome (label), ícone, cor, descrição (blurb) e os filtros que aparecem nele (facets).
+- D é o mesmo DEPTS, mas organizado para buscar rápido pela chave. Exemplo: D['gpu'] devolve o departamento de placas de vídeo.
+
+6.4 O cenário: a função layout()
+Esta é a parte mais matemática do site. Ela roda ao abrir a página e toda vez que a janela muda de tamanho. Os números importantes:
+- IMG: tamanho da foto (2576 × 1438).
+- SCR: posição e tamanho da tela do monitor dentro da foto.
+- MON: o monitor inteiro, com a moldura.
+- FOCUS: a região da parede com os post-its, que queremos manter visível.
+O que a função faz, em passos:
+1. Calcula a escala cover: o mínimo para a foto cobrir a janela toda, sem sobrar faixa vazia.
+2. Calcula a escala fit: o máximo para o monitor caber inteiro na janela.
+3. Se o zoom está ligado, a escala desejada faz a tela ocupar cerca de 60% da largura; se não, usa cover.
+4. A escala final s fica entre cover e fit.
+5. Calcula quanto mover a foto (tx e ty) para centralizar a parede e o monitor, sem deixar a foto sair da janela.
+6. Aplica o resultado com transform: translate(...) scale(...).
+Há um truque importante. A loja (viewport) é desenhada com o tamanho real que ela ocupa na sua tela, e depois recebe um scale(1/s) para voltar a caber no monitor. Assim o texto fica nítido, em vez de ficar borrado como uma foto ampliada. A função também calcula --fs, o tamanho base da letra (entre 10,5 e 16,5 pixels), conforme o tamanho da tela virtual.
+
+6.5 Botão de zoom
+O botão alterna a variável zoomed entre verdadeiro e falso, chama layout() de novo e salva a escolha no localStorage (a pequena memória do navegador), na chave techstore-zoom. Na próxima visita, o site lembra da escolha.
+
+6.6 A roda do mouse
+A foto nunca se mexe. Se a pessoa gira a roda do mouse fora da tela do monitor, o código bloqueia a rolagem normal e rola a parte certa: o modal, se ele estiver aberto; senão o carrinho, se estiver aberto; senão a loja. A função activeScroller() decide qual deles rolar.
+
+6.7 Funções pequenas de ajuda
+- byId: acha um produto pelo id sem percorrer a lista toda.
+- off(p): calcula a porcentagem de desconto (preço "de" contra preço atual).
+- brl(n): formata um número como dinheiro (R$ 1.299,00).
+- pix(n): dá 10% de desconto no preço.
+- line3(p): junta as três primeiras especificações de um produto em uma linha.
+- esc(s): troca símbolos perigosos (<, >, &, aspas) por versões seguras. Isso evita que um texto malicioso vire código na página (ataque chamado XSS). Todo texto de produto passa por esc antes de ir para a tela.
+
+6.8 Promoções (PROMOS)
+Uma lista com as seis promoções da home. Cada uma tem textos e um destino (go): qual departamento abrir e qual produto destacar. A mesma lista alimenta os cartões da home e os post-its da parede.
+
+6.9 O estado do site
+O estado é a memória do que está acontecendo agora. Ele fica em variáveis:
+- st: aba atual (tab), texto da busca (q), filtros marcados (f), "só promoções" (sale), ordenação (sort) e quantos produtos mostrar (limit, começa em 24).
+- cart: o carrinho, no formato { idDoProduto: quantidade }.
+- coupon: o cupom aplicado.
+- pay: forma de pagamento (pix ou card).
+O carrinho, o cupom e o pagamento são salvos no localStorage (chave techstore-cart) pela função save(). Por isso, se a pessoa fechar e abrir o site, o carrinho continua lá. Ao abrir, o site também lê o # do endereço: se for #gpu, já começa na aba de placas de vídeo.
+
+6.10 Como a tela é desenhada: render()
+O site não troca de página. Ele redesenha o conteúdo dentro do main. A função render() olha o estado e escolhe qual "visão" mostrar:
+- Se há texto na busca: viewSearch().
+- Senão, se a aba é inicio: viewHome().
+- Senão, se é ofertas: viewOffers().
+- Senão: viewDept(aba), a página de um departamento.
+Cada visão monta um texto HTML e o coloca na página com innerHTML. Depois do desenho, render() também atualiza as abas e a ordenação.
+Funções que ajudam a desenhar:
+- renderTabs(): desenha as abas (Início, Ofertas e os 13 departamentos).
+- thumb(p): a imagem do produto, com o ícone do departamento e a etiqueta de desconto (aparece a partir de 5%, e fica em destaque a partir de 30%).
+- card(p): o cartão do produto, com marca, nome, três especificações, preço riscado, preço no PIX, parcelamento em 10x e o botão de adicionar.
+- grid(lista): monta a grade de cartões e o botão "Mostrar mais".
+- sorted(lista): ordena por mais vendidos, maior desconto, menor preço ou maior preço.
+
+6.11 As quatro visões
+- Home: destaque do ASUS TUF F16, as seis promoções, os kits de upgrade (com 5% de desconto), a oferta relâmpago, os departamentos, os mais vendidos e as vantagens da loja.
+- Ofertas: todos os produtos com 15% ou mais de desconto. O botão "Só promoções do Esquenta" mostra apenas os marcados como Esquenta Black Friday.
+- Departamento: lista os produtos de uma categoria e cria filtros (chips) automaticamente a partir dos dados, como marca, socket ou capacidade. Regra: dentro de um mesmo filtro vale "um ou outro"; entre filtros diferentes vale "um e outro".
+- Busca: tira os acentos e as maiúsculas do texto digitado e procura todas as palavras na marca, no nome, no departamento e nas especificações. Por isso "ryzen 7800" acha o Ryzen 7 7800X3D e "memoria" acha "Memória".
+
+6.12 Navegar com go()
+go(aba, opções) troca de aba, limpa a busca e os filtros, volta a ordenação ao padrão e redesenha. Se vier um produto para destacar (pid), ele sobe para o começo da lista, rola até ele e pisca por um instante (efeito pulse). É o que acontece quando clicamos numa promoção.
+
+6.13 O modal do produto
+openProduct(id) monta a janela com a ficha técnica em tabela, o preço, o texto "no PIX (10% off) ou 10x sem juros" e o seletor de quantidade (de 1 a 9). Ela aparece porque a tela recebe a classe modal-open, e o CSS cuida da animação. Os botões são Adicionar e Comprar (este já abre o carrinho).
+
+6.14 O carrinho
+O carrinho é só o objeto cart. As funções principais:
+- add(id, qtd): soma a quantidade, salva e atualiza a tela.
+- totals(): calcula os valores para mostrar na tela.
+- renderCart(): desenha os itens, o campo de cupom, os botões de pagamento e o resumo.
+- openCart() e closeAll(): abrem e fecham a gaveta e o modal.
+- toast(msg): mostra um aviso rápido por 1,8 segundo.
+O cálculo de totals() segue esta ordem:
+- Subtotal: preço × quantidade de cada item.
+- Kit: 5% de desconto para cada kit completo no carrinho.
+- Cupom: a porcentagem do cupom sobre (subtotal − kit).
+- PIX: 10% sobre o que restou, só se o pagamento for PIX.
+- Frete: grátis a partir de R$ 299; senão R$ 29,90.
+O front calcula isso para a tela responder na hora. Mas quem manda de verdade é o back-end, que refaz a conta quando o pedido é finalizado.
+
+6.15 Cupom e finalizar pedido (ligação com o back-end)
+Estas duas funções conversam com o servidor:
+- aplicarCupom(texto) pergunta à API (GET /api/coupons/CODIGO) se o cupom existe. Se existir, guarda a porcentagem num cache chamado COUPONS e o desconto aparece. Se não existir, mostra "O cupom X não existe". Ao abrir o site, ele também revalida o cupom que estava salvo.
+- finalizarPedido() envia o pedido (POST /api/orders) com os itens, o cupom e o pagamento. Se der certo, mostra a tela "Pedido feito!" com o código e o total confirmado pelo servidor, e esvazia o carrinho. Se der erro, mostra o motivo num aviso. Uma variável (enviando) impede clicar duas vezes e criar dois pedidos.
+
+6.16 Os eventos: um único "ouvinte" de cliques
+Em vez de colocar um evento em cada botão, o site tem um só ouvinte de cliques para a página inteira. Isso se chama delegação de eventos. Cada botão carrega uma etiqueta nos atributos data-, por exemplo data-add="id-do-produto" ou data-tab="gpu".
+Quando alguém clica, o código acha o botão mais próximo, lê a etiqueta e decide o que fazer. Exemplos:
+- data-add: adicionar ao carrinho.
+- data-tab: ir para um departamento.
+- data-open: abrir o modal do produto.
+- data-kit: adicionar os três itens de um kit.
+- data-facet: marcar ou desmarcar um filtro.
+- data-checkout: finalizar o pedido.
+As vantagens: o código fica mais curto e os botões criados depois (a cada render()) já funcionam sem precisar configurar nada. Há também ouvintes para a tecla Esc (fecha tudo), para Enter no campo de cupom e para a digitação na busca.
+
+6.17 Barra de abas com rolagem própria
+São muitas abas, então elas rolam para os lados. A função syncTrack() mantém uma barrinha (tabthumb) do tamanho certo e na posição certa. A pessoa pode arrastar a barrinha, clicar nas setas ‹ › ou usar a roda do mouse sobre as abas.
+
+6.18 Contagens regressivas
+A função tick() roda a cada segundo (setInterval). Ela atualiza dois relógios: o tempo até a Black Friday (27/11/2026, no horário de Brasília) e o tempo até a meia-noite, na oferta relâmpago.
+
+6.19 Post-its da parede
+A lista NOTES descreve os oito post-its: posição na foto (em pixels), giro, e os textos de cada linha. O código converte os pixels em porcentagens, assim os post-its acompanham a foto em qualquer escala.
+Quando alguém clica em um post-it:
+- Os de produto abrem o departamento daquele produto, usando a lista PROMOS.
+- O "Esquenta Black Friday" abre as ofertas.
+- O do "Cupom TECH10" aplica o cupom (passando pela API), abre o carrinho e mostra um aviso.
+A função fitNotes() encolhe o texto de uma linha quando ele não cabe no papel.
+
+6.20 A foto "viva": plantas e lâmpada de lava
+A foto parece ter vida: as plantas balançam e a lâmpada de lava se mexe. Isso é feito com WebGL, uma tecnologia que usa a placa de vídeo para desenhar.
+Como funciona, de forma simples: sobre cada região da foto (planta da esquerda, planta da direita e lâmpada) fica um canvas, uma tela de desenho. Um pequeno programa para a placa de vídeo (chamado shader) desloca os pixels de leve, com ondas matemáticas (sin), e uma máscara (imagem em preto e branco) define o que pode se mexer. O que não está na máscara fica parado.
+Cuidados que o código tem:
+- Desenha no máximo cerca de 30 quadros por segundo e para quando a aba do navegador está escondida.
+- Se o navegador não tiver WebGL, os canvas são removidos e o site funciona normalmente, só sem o efeito.
+- Se a pessoa pediu menos movimento, desenha apenas um quadro parado.
+- Reduz o tamanho do desenho em telas pequenas para ficar leve.
+Essa é a parte mais difícil do código. Para apresentar, basta explicar a ideia: "a foto é parada, e uma máscara diz o que balança".
+
+7. O que acontece quando... (passo a passo)
+Abrir o site
+1. O navegador carrega index.html, o CSS e script.js.
+2. O script pede o catálogo em /api/catalog.
+3. O catálogo chega e iniciarLoja começa.
+4. layout() posiciona o cenário e initFx() liga os efeitos.
+5. render() desenha a home e renderCart() desenha o carrinho.
+6. Se havia cupom salvo, ele é conferido de novo com a API.
+
+Clicar em "Adicionar ao carrinho"
+1. O ouvinte de cliques lê data-add e chama add(id).
+2. cart[id] aumenta em 1 e save() grava no localStorage.
+3. renderCart() atualiza o número no ícone do carrinho e o ícone dá uma "pulada".
+
+Aplicar o cupom
+1. O clique chama aplicarCupom('TECH10').
+2. O site pergunta à API se o cupom existe.
+3. A API responde valid: true e percent: 0.1.
+4. O desconto aparece no resumo do carrinho.
+
+Finalizar o pedido
+1. O clique chama finalizarPedido().
+2. O site envia itens, cupom e pagamento ao servidor.
+3. O servidor confere, calcula, grava e devolve código e total.
+4. O site mostra "Pedido feito!", esvazia o carrinho e limpa o cupom.
+
+8. Perguntas que podem aparecer
+- Por que o site é feito em JavaScript puro, sem framework? Para o grupo entender cada linha, sem ferramentas escondendo o que acontece. Para um projeto deste tamanho funciona bem.
+- Por que a loja fica dentro de uma foto? Para a apresentação ser diferente e memorável. A foto é o cenário, e a loja é uma página comum dentro dela.
+- Por que a busca e os filtros ficam no navegador? São apenas 372 produtos. Filtrar no próprio navegador é instantâneo e evita uma chamada ao servidor a cada tecla.
+- O que é o localStorage? Uma pequena memória do navegador. Guarda o carrinho e a escolha de zoom mesmo depois de fechar a aba.
+- Por que o front calcula o total se o back-end também calcula? O front calcula para responder rápido. O back-end calcula para ser seguro, pois ninguém pode confiar no que vem do navegador.
+- O que acontece se o servidor estiver desligado? O catálogo não carrega, e a página mostra uma mensagem pedindo para rodar npm start.
+- O que é delegação de eventos? Usar um único ouvinte de cliques para a página toda, em vez de um por botão.
+- Por que usar esc()? Para impedir que um texto vindo de fora seja interpretado como código HTML (proteção contra XSS).
+
+9. Glossário rápido
+- DOM: a página vista como uma árvore de elementos que o JavaScript pode mudar.
+- Estado: as informações que o site guarda sobre o que está acontecendo agora.
+- Renderizar: desenhar na tela a partir dos dados.
+- Evento: algo que acontece (clique, tecla, rolagem) e que o código pode "ouvir".
+- API: o jeito de o front pedir coisas ao back-end.
+- fetch: o comando do navegador para chamar a API.
+- JSON: formato de texto para trocar dados entre front e back.
+- base64: jeito de guardar uma imagem como texto.
+- SVG: desenho feito de linhas e formas, que não perde qualidade ao ampliar.
+- Canvas: uma área de desenho controlada pelo JavaScript.
+- WebGL: tecnologia para desenhar usando a placa de vídeo.
+- Acessibilidade: deixar o site usável por todas as pessoas, inclusive quem usa leitor de tela ou só teclado.
