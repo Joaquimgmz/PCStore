@@ -1,0 +1,7128 @@
+{
+ "products": [
+  {
+   "id": "amd-ryzen-3-3200g",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 3 3200G",
+   "price": 449,
+   "list": 499,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "4 / 4",
+    "Clock máx.": "4,0 GHz",
+    "Cache L3": "4 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon Vega 8"
+   }
+  },
+  {
+   "id": "amd-ryzen-3-4100",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 3 4100",
+   "price": 429,
+   "list": 499,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "4 / 8",
+    "Clock máx.": "4,0 GHz",
+    "Cache L3": "4 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "amd-ryzen-5-3600",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 3600",
+   "price": 549,
+   "list": 699,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "4,2 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "amd-ryzen-5-4500",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 4500",
+   "price": 499,
+   "list": 549,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "4,1 GHz",
+    "Cache L3": "8 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "amd-ryzen-5-5500",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 5500",
+   "price": 579,
+   "list": 719,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "4,2 GHz",
+    "Cache L3": "16 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "amd-ryzen-5-5600",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 5600",
+   "price": 649,
+   "list": 759,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "4,4 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   },
+   "hot": 1
+  },
+  {
+   "id": "amd-ryzen-5-5600g",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 5600G",
+   "price": 799,
+   "list": 889,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "4,4 GHz",
+    "Cache L3": "16 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon Vega 7"
+   }
+  },
+  {
+   "id": "amd-ryzen-5-5600x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 5600X",
+   "price": 799,
+   "list": 969,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "4,6 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "amd-ryzen-7-5700x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 5700X",
+   "price": 999,
+   "list": 1089,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "4,6 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "amd-ryzen-7-5700g",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 5700G",
+   "price": 1099,
+   "list": 1159,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "4,6 GHz",
+    "Cache L3": "16 MB",
+    "Socket": "AM4",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon Vega 8"
+   }
+  },
+  {
+   "id": "amd-ryzen-7-5800x3d",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 5800X3D",
+   "price": 1899,
+   "list": 2109,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "4,5 GHz",
+    "Cache L3": "96 MB (3D V-Cache)",
+    "Socket": "AM4",
+    "TDP": "105 W",
+    "Vídeo integrado": "Não"
+   },
+   "hot": 1
+  },
+  {
+   "id": "amd-ryzen-9-5900x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 9 5900X",
+   "price": 1699,
+   "list": 1889,
+   "attr": {
+    "Socket": "AM4",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "12 / 24",
+    "Clock máx.": "4,8 GHz",
+    "Cache L3": "64 MB",
+    "Socket": "AM4",
+    "TDP": "105 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "amd-ryzen-5-7600",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 7600",
+   "price": 1099,
+   "list": 1159,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "5,1 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM5",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   },
+   "hot": 1
+  },
+  {
+   "id": "amd-ryzen-5-7600x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 7600X",
+   "price": 1199,
+   "list": 1329,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "5,3 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM5",
+    "TDP": "105 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "amd-ryzen-5-8600g",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 8600G",
+   "price": 1399,
+   "list": 1589,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "5,0 GHz",
+    "Cache L3": "16 MB",
+    "Socket": "AM5",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon 760M"
+   }
+  },
+  {
+   "id": "amd-ryzen-5-9600x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 5 9600X",
+   "price": 1449,
+   "list": 1609,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "5,4 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM5",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "amd-ryzen-7-7700",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 7700",
+   "price": 1699,
+   "list": 1929,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "5,3 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM5",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "amd-ryzen-7-7700x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 7700X",
+   "price": 1799,
+   "list": 2189,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "5,4 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM5",
+    "TDP": "105 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "amd-ryzen-7-7800x3d",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 7800X3D",
+   "price": 2099,
+   "list": 2799,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "5,0 GHz",
+    "Cache L3": "96 MB (3D V-Cache)",
+    "Socket": "AM5",
+    "TDP": "120 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   },
+   "hot": 1,
+   "esq": 1
+  },
+  {
+   "id": "amd-ryzen-7-8700g",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 8700G",
+   "price": 1999,
+   "list": 2099,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "5,1 GHz",
+    "Cache L3": "16 MB",
+    "Socket": "AM5",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon 780M"
+   }
+  },
+  {
+   "id": "amd-ryzen-7-9700x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 9700X",
+   "price": 2199,
+   "list": 2359,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "5,5 GHz",
+    "Cache L3": "32 MB",
+    "Socket": "AM5",
+    "TDP": "65 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "amd-ryzen-7-9800x3d",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 7 9800X3D",
+   "price": 3499,
+   "list": 4119,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "8 / 16",
+    "Clock máx.": "5,2 GHz",
+    "Cache L3": "96 MB (3D V-Cache)",
+    "Socket": "AM5",
+    "TDP": "120 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "amd-ryzen-9-7900x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 9 7900X",
+   "price": 2499,
+   "list": 2629,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "12 / 24",
+    "Clock máx.": "5,6 GHz",
+    "Cache L3": "64 MB",
+    "Socket": "AM5",
+    "TDP": "170 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "amd-ryzen-9-7950x3d",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 9 7950X3D",
+   "price": 4299,
+   "list": 4669,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "16 / 32",
+    "Clock máx.": "5,7 GHz",
+    "Cache L3": "128 MB (3D V-Cache)",
+    "Socket": "AM5",
+    "TDP": "120 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "amd-ryzen-9-9950x",
+   "cat": "cpu",
+   "brand": "AMD",
+   "name": "Ryzen 9 9950X",
+   "price": 4499,
+   "list": 5109,
+   "attr": {
+    "Socket": "AM5",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "16 / 32",
+    "Clock máx.": "5,7 GHz",
+    "Cache L3": "64 MB",
+    "Socket": "AM5",
+    "TDP": "170 W",
+    "Vídeo integrado": "Radeon (2 CU)"
+   }
+  },
+  {
+   "id": "intel-core-i3-12100f",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i3-12100F",
+   "price": 549,
+   "list": 579,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "4 / 8",
+    "Clock máx.": "4,3 GHz",
+    "Cache L3": "12 MB",
+    "Socket": "LGA1700",
+    "TDP": "58 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "intel-core-i3-13100f",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i3-13100F",
+   "price": 649,
+   "list": 719,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "4 / 8",
+    "Clock máx.": "4,5 GHz",
+    "Cache L3": "12 MB",
+    "Socket": "LGA1700",
+    "TDP": "58 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "intel-core-i5-12400f",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i5-12400F",
+   "price": 749,
+   "list": 849,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "6 / 12",
+    "Clock máx.": "4,4 GHz",
+    "Cache L3": "18 MB",
+    "Socket": "LGA1700",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   },
+   "hot": 1
+  },
+  {
+   "id": "intel-core-i5-13400f",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i5-13400F",
+   "price": 999,
+   "list": 1219,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "10 / 16",
+    "Clock máx.": "4,6 GHz",
+    "Cache L3": "20 MB",
+    "Socket": "LGA1700",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "intel-core-i5-14400f",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i5-14400F",
+   "price": 1049,
+   "list": 1189,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "10 / 16",
+    "Clock máx.": "4,7 GHz",
+    "Cache L3": "20 MB",
+    "Socket": "LGA1700",
+    "TDP": "65 W",
+    "Vídeo integrado": "Não"
+   },
+   "hot": 1
+  },
+  {
+   "id": "intel-core-i5-13600k",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i5-13600K",
+   "price": 1699,
+   "list": 1889,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "14 / 20",
+    "Clock máx.": "5,1 GHz",
+    "Cache L3": "24 MB",
+    "Socket": "LGA1700",
+    "TDP": "125 W",
+    "Vídeo integrado": "UHD 770"
+   }
+  },
+  {
+   "id": "intel-core-i5-14600k",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i5-14600K",
+   "price": 1899,
+   "list": 2369,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "14 / 20",
+    "Clock máx.": "5,3 GHz",
+    "Cache L3": "24 MB",
+    "Socket": "LGA1700",
+    "TDP": "125 W",
+    "Vídeo integrado": "UHD 770"
+   }
+  },
+  {
+   "id": "intel-core-i7-12700kf",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i7-12700KF",
+   "price": 1799,
+   "list": 1929,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "12 / 20",
+    "Clock máx.": "5,0 GHz",
+    "Cache L3": "25 MB",
+    "Socket": "LGA1700",
+    "TDP": "125 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "intel-core-i7-13700kf",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i7-13700KF",
+   "price": 2299,
+   "list": 2549,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Sem vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "16 / 24",
+    "Clock máx.": "5,4 GHz",
+    "Cache L3": "30 MB",
+    "Socket": "LGA1700",
+    "TDP": "125 W",
+    "Vídeo integrado": "Não"
+   }
+  },
+  {
+   "id": "intel-core-i7-14700k",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i7-14700K",
+   "price": 2799,
+   "list": 3109,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "20 / 28",
+    "Clock máx.": "5,6 GHz",
+    "Cache L3": "33 MB",
+    "Socket": "LGA1700",
+    "TDP": "125 W",
+    "Vídeo integrado": "UHD 770"
+   }
+  },
+  {
+   "id": "intel-core-i9-13900k",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i9-13900K",
+   "price": 3299,
+   "list": 4119,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "24 / 32",
+    "Clock máx.": "5,8 GHz",
+    "Cache L3": "36 MB",
+    "Socket": "LGA1700",
+    "TDP": "125 W",
+    "Vídeo integrado": "UHD 770"
+   }
+  },
+  {
+   "id": "intel-core-i9-14900ks",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core i9-14900KS",
+   "price": 4499,
+   "list": 4839,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "24 / 32",
+    "Clock máx.": "6,2 GHz",
+    "Cache L3": "36 MB",
+    "Socket": "LGA1700",
+    "TDP": "150 W",
+    "Vídeo integrado": "UHD 770"
+   }
+  },
+  {
+   "id": "intel-core-ultra-5-245k",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core Ultra 5 245K",
+   "price": 1899,
+   "list": 2109,
+   "attr": {
+    "Socket": "LGA1851",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "14 / 14",
+    "Clock máx.": "5,2 GHz",
+    "Cache L3": "24 MB",
+    "Socket": "LGA1851",
+    "TDP": "125 W",
+    "Vídeo integrado": "Intel Xe (4 núcleos)"
+   }
+  },
+  {
+   "id": "intel-core-ultra-7-265k",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core Ultra 7 265K",
+   "price": 2799,
+   "list": 3499,
+   "attr": {
+    "Socket": "LGA1851",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "20 / 20",
+    "Clock máx.": "5,5 GHz",
+    "Cache L3": "30 MB",
+    "Socket": "LGA1851",
+    "TDP": "125 W",
+    "Vídeo integrado": "Intel Xe (4 núcleos)"
+   }
+  },
+  {
+   "id": "intel-core-ultra-9-285k",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Core Ultra 9 285K",
+   "price": 3999,
+   "list": 4699,
+   "attr": {
+    "Socket": "LGA1851",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "24 / 24",
+    "Clock máx.": "5,7 GHz",
+    "Cache L3": "36 MB",
+    "Socket": "LGA1851",
+    "TDP": "125 W",
+    "Vídeo integrado": "Intel Xe (4 núcleos)"
+   }
+  },
+  {
+   "id": "intel-pentium-gold-g7400",
+   "cat": "cpu",
+   "brand": "Intel",
+   "name": "Pentium Gold G7400",
+   "price": 449,
+   "list": 509,
+   "attr": {
+    "Socket": "LGA1700",
+    "Vídeo integrado": "Com vídeo"
+   },
+   "specs": {
+    "Núcleos / threads": "2 / 4",
+    "Clock máx.": "3,7 GHz",
+    "Cache L3": "6 MB",
+    "Socket": "LGA1700",
+    "TDP": "46 W",
+    "Vídeo integrado": "UHD 710"
+   }
+  },
+  {
+   "id": "galax-geforce-rtx-3050-ex-8-gb",
+   "cat": "gpu",
+   "brand": "Galax",
+   "name": "GeForce RTX 3050 EX 8 GB",
+   "price": 1349,
+   "list": 1469,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "130 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "msi-geforce-rtx-3060-ventus-2x-12-gb",
+   "cat": "gpu",
+   "brand": "MSI",
+   "name": "GeForce RTX 3060 Ventus 2X 12 GB",
+   "price": 1799,
+   "list": 2039,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "12 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR6",
+    "Barramento": "192-bit",
+    "Consumo": "170 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "asus-geforce-rtx-3060-ti-dual-8-gb",
+   "cat": "gpu",
+   "brand": "ASUS",
+   "name": "GeForce RTX 3060 Ti Dual 8 GB",
+   "price": 2099,
+   "list": 2389,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "256-bit",
+    "Consumo": "200 W",
+    "Fonte recomendada": "600 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "msi-geforce-rtx-4060-ventus-2x-8-gb",
+   "cat": "gpu",
+   "brand": "MSI",
+   "name": "GeForce RTX 4060 Ventus 2X 8 GB",
+   "price": 1749,
+   "list": 1839,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "115 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "NVIDIA"
+   },
+   "hot": 1
+  },
+  {
+   "id": "gigabyte-geforce-rtx-4060-ti-windforce-8",
+   "cat": "gpu",
+   "brand": "Gigabyte",
+   "name": "GeForce RTX 4060 Ti Windforce 8 GB",
+   "price": 2399,
+   "list": 2609,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "160 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "asus-geforce-rtx-4060-ti-dual-16-gb",
+   "cat": "gpu",
+   "brand": "ASUS",
+   "name": "GeForce RTX 4060 Ti Dual 16 GB",
+   "price": 2999,
+   "list": 3839,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "165 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "zotac-geforce-rtx-4070-twin-edge-12-gb",
+   "cat": "gpu",
+   "brand": "Zotac",
+   "name": "GeForce RTX 4070 Twin Edge 12 GB",
+   "price": 3699,
+   "list": 4509,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "12 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR6X",
+    "Barramento": "192-bit",
+    "Consumo": "200 W",
+    "Fonte recomendada": "650 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "asus-geforce-rtx-4070-super-dual-12-gb",
+   "cat": "gpu",
+   "brand": "ASUS",
+   "name": "GeForce RTX 4070 Super Dual 12 GB",
+   "price": 4199,
+   "list": 4669,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "12 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR6X",
+    "Barramento": "192-bit",
+    "Consumo": "220 W",
+    "Fonte recomendada": "650 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "gigabyte-geforce-rtx-4070-ti-super-gamin",
+   "cat": "gpu",
+   "brand": "Gigabyte",
+   "name": "GeForce RTX 4070 Ti Super Gaming OC 16 GB",
+   "price": 5999,
+   "list": 6519,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR6X",
+    "Barramento": "256-bit",
+    "Consumo": "285 W",
+    "Fonte recomendada": "750 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "asus-geforce-rtx-4080-super-tuf-16-gb",
+   "cat": "gpu",
+   "brand": "ASUS",
+   "name": "GeForce RTX 4080 Super TUF 16 GB",
+   "price": 8499,
+   "list": 9659,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR6X",
+    "Barramento": "256-bit",
+    "Consumo": "320 W",
+    "Fonte recomendada": "750 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "msi-geforce-rtx-4090-gaming-x-trio-24-gb",
+   "cat": "gpu",
+   "brand": "MSI",
+   "name": "GeForce RTX 4090 Gaming X Trio 24 GB",
+   "price": 14999,
+   "list": 17649,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "24 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "24 GB GDDR6X",
+    "Barramento": "384-bit",
+    "Consumo": "450 W",
+    "Fonte recomendada": "1000 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "gigabyte-geforce-rtx-5060-windforce-oc-8",
+   "cat": "gpu",
+   "brand": "Gigabyte",
+   "name": "GeForce RTX 5060 Windforce OC 8 GB",
+   "price": 1999,
+   "list": 2499,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR7",
+    "Barramento": "128-bit",
+    "Consumo": "145 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "NVIDIA"
+   },
+   "hot": 1,
+   "esq": 1
+  },
+  {
+   "id": "asus-geforce-rtx-5060-ti-dual-16-gb",
+   "cat": "gpu",
+   "brand": "ASUS",
+   "name": "GeForce RTX 5060 Ti Dual 16 GB",
+   "price": 3199,
+   "list": 3759,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR7",
+    "Barramento": "128-bit",
+    "Consumo": "180 W",
+    "Fonte recomendada": "650 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "asus-geforce-rtx-5070-prime-12-gb",
+   "cat": "gpu",
+   "brand": "ASUS",
+   "name": "GeForce RTX 5070 Prime 12 GB",
+   "price": 4699,
+   "list": 5869,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "12 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR7",
+    "Barramento": "192-bit",
+    "Consumo": "250 W",
+    "Fonte recomendada": "650 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "msi-geforce-rtx-5070-ti-gaming-trio-16-g",
+   "cat": "gpu",
+   "brand": "MSI",
+   "name": "GeForce RTX 5070 Ti Gaming Trio 16 GB",
+   "price": 6999,
+   "list": 8749,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR7",
+    "Barramento": "256-bit",
+    "Consumo": "300 W",
+    "Fonte recomendada": "750 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "gigabyte-geforce-rtx-5080-gaming-oc-16-g",
+   "cat": "gpu",
+   "brand": "Gigabyte",
+   "name": "GeForce RTX 5080 Gaming OC 16 GB",
+   "price": 9999,
+   "list": 12499,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR7",
+    "Barramento": "256-bit",
+    "Consumo": "360 W",
+    "Fonte recomendada": "850 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "asus-geforce-rtx-5090-rog-astral-32-gb",
+   "cat": "gpu",
+   "brand": "ASUS",
+   "name": "GeForce RTX 5090 ROG Astral 32 GB",
+   "price": 22999,
+   "list": 27059,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "32 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "32 GB GDDR7",
+    "Barramento": "512-bit",
+    "Consumo": "575 W",
+    "Fonte recomendada": "1000 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "powercolor-radeon-rx-6600-fighter-8-gb",
+   "cat": "gpu",
+   "brand": "PowerColor",
+   "name": "Radeon RX 6600 Fighter 8 GB",
+   "price": 1399,
+   "list": 1589,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "132 W",
+    "Fonte recomendada": "500 W",
+    "Fabricante do chip": "AMD"
+   },
+   "hot": 1
+  },
+  {
+   "id": "msi-radeon-rx-6650-xt-mech-2x-8-gb",
+   "cat": "gpu",
+   "brand": "MSI",
+   "name": "Radeon RX 6650 XT Mech 2X 8 GB",
+   "price": 1699,
+   "list": 1789,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "180 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "sapphire-radeon-rx-6700-xt-pulse-12-gb",
+   "cat": "gpu",
+   "brand": "Sapphire",
+   "name": "Radeon RX 6700 XT Pulse 12 GB",
+   "price": 2299,
+   "list": 2419,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "12 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR6",
+    "Barramento": "192-bit",
+    "Consumo": "230 W",
+    "Fonte recomendada": "650 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "xfx-radeon-rx-6750-xt-speedster-12-gb",
+   "cat": "gpu",
+   "brand": "XFX",
+   "name": "Radeon RX 6750 XT Speedster 12 GB",
+   "price": 2499,
+   "list": 2779,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "12 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR6",
+    "Barramento": "192-bit",
+    "Consumo": "250 W",
+    "Fonte recomendada": "650 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "sapphire-radeon-rx-7600-pulse-8-gb",
+   "cat": "gpu",
+   "brand": "Sapphire",
+   "name": "Radeon RX 7600 Pulse 8 GB",
+   "price": 1649,
+   "list": 1829,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "165 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "asrock-radeon-rx-7600-xt-challenger-16-g",
+   "cat": "gpu",
+   "brand": "ASRock",
+   "name": "Radeon RX 7600 XT Challenger 16 GB",
+   "price": 2199,
+   "list": 2679,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "190 W",
+    "Fonte recomendada": "600 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "sapphire-radeon-rx-7700-xt-pulse-12-gb",
+   "cat": "gpu",
+   "brand": "Sapphire",
+   "name": "Radeon RX 7700 XT Pulse 12 GB",
+   "price": 2899,
+   "list": 3409,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "12 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR6",
+    "Barramento": "192-bit",
+    "Consumo": "245 W",
+    "Fonte recomendada": "700 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "powercolor-radeon-rx-7800-xt-hellhound-1",
+   "cat": "gpu",
+   "brand": "PowerColor",
+   "name": "Radeon RX 7800 XT Hellhound 16 GB",
+   "price": 3499,
+   "list": 3759,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR6",
+    "Barramento": "256-bit",
+    "Consumo": "263 W",
+    "Fonte recomendada": "700 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "gigabyte-radeon-rx-7900-xt-gaming-oc-20-",
+   "cat": "gpu",
+   "brand": "Gigabyte",
+   "name": "Radeon RX 7900 XT Gaming OC 20 GB",
+   "price": 5299,
+   "list": 5579,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "20 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "20 GB GDDR6",
+    "Barramento": "320-bit",
+    "Consumo": "315 W",
+    "Fonte recomendada": "750 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "sapphire-radeon-rx-7900-xtx-nitro-24-gb",
+   "cat": "gpu",
+   "brand": "Sapphire",
+   "name": "Radeon RX 7900 XTX Nitro+ 24 GB",
+   "price": 6999,
+   "list": 8749,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "24 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "24 GB GDDR6",
+    "Barramento": "384-bit",
+    "Consumo": "355 W",
+    "Fonte recomendada": "800 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "sapphire-radeon-rx-9060-xt-pulse-16-gb",
+   "cat": "gpu",
+   "brand": "Sapphire",
+   "name": "Radeon RX 9060 XT Pulse 16 GB",
+   "price": 2599,
+   "list": 3329,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "160 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "asrock-radeon-rx-9070-xt-taichi-16-gb",
+   "cat": "gpu",
+   "brand": "ASRock",
+   "name": "Radeon RX 9070 XT Taichi 16 GB",
+   "price": 5199,
+   "list": 5909,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR6",
+    "Barramento": "256-bit",
+    "Consumo": "304 W",
+    "Fonte recomendada": "750 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "sapphire-radeon-rx-6400-pulse-itx-4-gb",
+   "cat": "gpu",
+   "brand": "Sapphire",
+   "name": "Radeon RX 6400 Pulse ITX 4 GB",
+   "price": 899,
+   "list": 1119,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "4 GB",
+    "Linha": "Entrada"
+   },
+   "specs": {
+    "Memória": "4 GB GDDR6",
+    "Barramento": "64-bit",
+    "Consumo": "53 W",
+    "Fonte recomendada": "350 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "gigabyte-geforce-gt-1030-2-gb",
+   "cat": "gpu",
+   "brand": "Gigabyte",
+   "name": "GeForce GT 1030 2 GB",
+   "price": 549,
+   "list": 599,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "2 GB",
+    "Linha": "Entrada"
+   },
+   "specs": {
+    "Memória": "2 GB GDDR5",
+    "Barramento": "64-bit",
+    "Consumo": "30 W",
+    "Fonte recomendada": "300 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "asrock-arc-a580-challenger-8-gb",
+   "cat": "gpu",
+   "brand": "ASRock",
+   "name": "Arc A580 Challenger 8 GB",
+   "price": 1199,
+   "list": 1259,
+   "attr": {
+    "Chip": "Intel",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "256-bit",
+    "Consumo": "185 W",
+    "Fonte recomendada": "550 W",
+    "Fabricante do chip": "Intel"
+   }
+  },
+  {
+   "id": "asrock-arc-a750-challenger-8-gb",
+   "cat": "gpu",
+   "brand": "ASRock",
+   "name": "Arc A750 Challenger 8 GB",
+   "price": 1399,
+   "list": 1549,
+   "attr": {
+    "Chip": "Intel",
+    "VRAM": "8 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "256-bit",
+    "Consumo": "225 W",
+    "Fonte recomendada": "600 W",
+    "Fabricante do chip": "Intel"
+   }
+  },
+  {
+   "id": "asrock-arc-a770-phantom-gaming-16-gb",
+   "cat": "gpu",
+   "brand": "ASRock",
+   "name": "Arc A770 Phantom Gaming 16 GB",
+   "price": 1999,
+   "list": 2499,
+   "attr": {
+    "Chip": "Intel",
+    "VRAM": "16 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "16 GB GDDR6",
+    "Barramento": "256-bit",
+    "Consumo": "225 W",
+    "Fonte recomendada": "650 W",
+    "Fabricante do chip": "Intel"
+   }
+  },
+  {
+   "id": "asrock-arc-b580-steel-legend-12-gb-battl",
+   "cat": "gpu",
+   "brand": "ASRock",
+   "name": "Arc B580 Steel Legend 12 GB (Battlemage)",
+   "price": 1899,
+   "list": 2109,
+   "attr": {
+    "Chip": "Intel",
+    "VRAM": "12 GB",
+    "Linha": "Gamer"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR6",
+    "Barramento": "192-bit",
+    "Consumo": "190 W",
+    "Fonte recomendada": "600 W",
+    "Fabricante do chip": "Intel"
+   }
+  },
+  {
+   "id": "pny-rtx-a2000-12-gb-compacta",
+   "cat": "gpu",
+   "brand": "PNY",
+   "name": "RTX A2000 12 GB (compacta)",
+   "price": 4999,
+   "list": 6249,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "12 GB",
+    "Linha": "Workstation"
+   },
+   "specs": {
+    "Memória": "12 GB GDDR6 ECC",
+    "Barramento": "192-bit",
+    "Consumo": "70 W",
+    "Fonte recomendada": "300 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "pny-rtx-4000-ada-generation-20-gb",
+   "cat": "gpu",
+   "brand": "PNY",
+   "name": "RTX 4000 Ada Generation 20 GB",
+   "price": 8999,
+   "list": 11539,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "20 GB",
+    "Linha": "Workstation"
+   },
+   "specs": {
+    "Memória": "20 GB GDDR6 ECC",
+    "Barramento": "160-bit",
+    "Consumo": "130 W",
+    "Fonte recomendada": "400 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "pny-quadro-t400-4-gb",
+   "cat": "gpu",
+   "brand": "PNY",
+   "name": "Quadro T400 4 GB",
+   "price": 999,
+   "list": 1219,
+   "attr": {
+    "Chip": "NVIDIA",
+    "VRAM": "4 GB",
+    "Linha": "Workstation"
+   },
+   "specs": {
+    "Memória": "4 GB GDDR6",
+    "Barramento": "64-bit",
+    "Consumo": "30 W",
+    "Fonte recomendada": "300 W",
+    "Fabricante do chip": "NVIDIA"
+   }
+  },
+  {
+   "id": "amd-radeon-pro-w6600-8-gb",
+   "cat": "gpu",
+   "brand": "AMD",
+   "name": "Radeon Pro W6600 8 GB",
+   "price": 3299,
+   "list": 3669,
+   "attr": {
+    "Chip": "AMD",
+    "VRAM": "8 GB",
+    "Linha": "Workstation"
+   },
+   "specs": {
+    "Memória": "8 GB GDDR6",
+    "Barramento": "128-bit",
+    "Consumo": "100 W",
+    "Fonte recomendada": "450 W",
+    "Fabricante do chip": "AMD"
+   }
+  },
+  {
+   "id": "asrock-a320m-hdv-r4-0",
+   "cat": "placa-mae",
+   "brand": "ASRock",
+   "name": "A320M-HDV R4.0",
+   "price": 399,
+   "list": 429,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "A320",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "A320",
+    "Socket": "AM4",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "gigabyte-a520m-ds3h",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "A520M DS3H",
+   "price": 549,
+   "list": 649,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "A520",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "A520",
+    "Socket": "AM4",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "msi-b450m-a-pro-max",
+   "cat": "placa-mae",
+   "brand": "MSI",
+   "name": "B450M-A PRO MAX",
+   "price": 549,
+   "list": 699,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "B450",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B450",
+    "Socket": "AM4",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "asus-tuf-gaming-a520m-plus-ii",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "TUF Gaming A520M-PLUS II",
+   "price": 649,
+   "list": 719,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "A520",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "A520",
+    "Socket": "AM4",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "asus-tuf-gaming-b550m-plus",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "TUF Gaming B550M-PLUS",
+   "price": 999,
+   "list": 1069,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "B550",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B550",
+    "Socket": "AM4",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   },
+   "hot": 1
+  },
+  {
+   "id": "gigabyte-b550m-aorus-elite",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "B550M AORUS Elite",
+   "price": 899,
+   "list": 1019,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "B550",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B550",
+    "Socket": "AM4",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "msi-mag-b550-tomahawk",
+   "cat": "placa-mae",
+   "brand": "MSI",
+   "name": "MAG B550 Tomahawk",
+   "price": 1199,
+   "list": 1539,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "B550",
+    "Memória": "DDR4",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "B550",
+    "Socket": "AM4",
+    "Formato": "ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "asrock-x570-phantom-gaming-4",
+   "cat": "placa-mae",
+   "brand": "ASRock",
+   "name": "X570 Phantom Gaming 4",
+   "price": 1099,
+   "list": 1179,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "X570",
+    "Memória": "DDR4",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "X570",
+    "Socket": "AM4",
+    "Formato": "ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "asus-rog-strix-b550-f-gaming-wifi",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "ROG Strix B550-F Gaming WiFi",
+   "price": 1499,
+   "list": 1669,
+   "attr": {
+    "Socket": "AM4",
+    "Chipset": "B550",
+    "Memória": "DDR4",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "B550",
+    "Socket": "AM4",
+    "Formato": "ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "gigabyte-a620m-gaming-x",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "A620M Gaming X",
+   "price": 799,
+   "list": 889,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "A620",
+    "Memória": "DDR5",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "A620",
+    "Socket": "AM5",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-prime-a620m-k",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "Prime A620M-K",
+   "price": 749,
+   "list": 849,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "A620",
+    "Memória": "DDR5",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "A620",
+    "Socket": "AM5",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "msi-pro-b650m-a-wifi",
+   "cat": "placa-mae",
+   "brand": "MSI",
+   "name": "PRO B650M-A WiFi",
+   "price": 1199,
+   "list": 1259,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "B650",
+    "Memória": "DDR5",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B650",
+    "Socket": "AM5",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR5"
+   },
+   "hot": 1
+  },
+  {
+   "id": "gigabyte-b650m-gaming-x-ax",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "B650M Gaming X AX",
+   "price": 1149,
+   "list": 1239,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "B650",
+    "Memória": "DDR5",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B650",
+    "Socket": "AM5",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "gigabyte-b650m-aorus-elite-ax",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "B650M AORUS Elite AX",
+   "price": 1399,
+   "list": 1549,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "B650",
+    "Memória": "DDR5",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B650",
+    "Socket": "AM5",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-tuf-gaming-b650m-plus-wifi",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "TUF Gaming B650M-PLUS WiFi",
+   "price": 1499,
+   "list": 1699,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "B650",
+    "Memória": "DDR5",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B650",
+    "Socket": "AM5",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asrock-b650-livemixer",
+   "cat": "placa-mae",
+   "brand": "ASRock",
+   "name": "B650 LiveMixer",
+   "price": 1499,
+   "list": 1579,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "B650",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "B650",
+    "Socket": "AM5",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-rog-strix-b650e-e-gaming-wifi",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "ROG Strix B650E-E Gaming WiFi",
+   "price": 2499,
+   "list": 2779,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "B650E",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "B650E",
+    "Socket": "AM5",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "gigabyte-x670e-aorus-master",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "X670E AORUS Master",
+   "price": 3999,
+   "list": 4539,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "X670E",
+    "Memória": "DDR5",
+    "Formato": "E-ATX"
+   },
+   "specs": {
+    "Chipset": "X670E",
+    "Socket": "AM5",
+    "Formato": "E-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-rog-crosshair-x670e-hero",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "ROG Crosshair X670E Hero",
+   "price": 4999,
+   "list": 5259,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "X670E",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "X670E",
+    "Socket": "AM5",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "msi-meg-x670e-ace",
+   "cat": "placa-mae",
+   "brand": "MSI",
+   "name": "MEG X670E ACE",
+   "price": 4799,
+   "list": 5849,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "X670E",
+    "Memória": "DDR5",
+    "Formato": "E-ATX"
+   },
+   "specs": {
+    "Chipset": "X670E",
+    "Socket": "AM5",
+    "Formato": "E-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-proart-x670e-creator-wifi",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "ProArt X670E-Creator WiFi",
+   "price": 3999,
+   "list": 4699,
+   "attr": {
+    "Socket": "AM5",
+    "Chipset": "X670E",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "X670E",
+    "Socket": "AM5",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-prime-h610m-e-d4",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "Prime H610M-E D4",
+   "price": 549,
+   "list": 609,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "H610",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "H610",
+    "Socket": "LGA1700",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "gigabyte-h610m-s2h-ddr4",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "H610M S2H DDR4",
+   "price": 529,
+   "list": 599,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "H610",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "H610",
+    "Socket": "LGA1700",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "msi-pro-h610m-g-ddr4",
+   "cat": "placa-mae",
+   "brand": "MSI",
+   "name": "PRO H610M-G DDR4",
+   "price": 549,
+   "list": 669,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "H610",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "H610",
+    "Socket": "LGA1700",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "asus-tuf-gaming-b660m-plus-d4",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "TUF Gaming B660M-PLUS D4",
+   "price": 999,
+   "list": 1089,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "B660",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B660",
+    "Socket": "LGA1700",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "gigabyte-b760m-ds3h-ddr4",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "B760M DS3H DDR4",
+   "price": 799,
+   "list": 869,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "B760",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B760",
+    "Socket": "LGA1700",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   }
+  },
+  {
+   "id": "asus-prime-b760m-a-d4",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "Prime B760M-A D4",
+   "price": 899,
+   "list": 1149,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "B760",
+    "Memória": "DDR4",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B760",
+    "Socket": "LGA1700",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR4"
+   },
+   "hot": 1
+  },
+  {
+   "id": "msi-mag-b760m-mortar-wifi",
+   "cat": "placa-mae",
+   "brand": "MSI",
+   "name": "MAG B760M Mortar WiFi",
+   "price": 1299,
+   "list": 1439,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "B760",
+    "Memória": "DDR5",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B760",
+    "Socket": "LGA1700",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "gigabyte-b760-aorus-elite-ax",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "B760 AORUS Elite AX",
+   "price": 1399,
+   "list": 1549,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "B760",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "B760",
+    "Socket": "LGA1700",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-tuf-gaming-b760m-plus-wifi",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "TUF Gaming B760M-PLUS WiFi",
+   "price": 1399,
+   "list": 1789,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "B760",
+    "Memória": "DDR5",
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Chipset": "B760",
+    "Socket": "LGA1700",
+    "Formato": "Micro-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-rog-strix-b760-f-gaming-wifi",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "ROG Strix B760-F Gaming WiFi",
+   "price": 1899,
+   "list": 2319,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "B760",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "B760",
+    "Socket": "LGA1700",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "gigabyte-z790-ud-ax",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "Z790 UD AX",
+   "price": 1599,
+   "list": 1779,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "Z790",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "Z790",
+    "Socket": "LGA1700",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-prime-z790-p-wifi",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "Prime Z790-P WiFi",
+   "price": 1899,
+   "list": 2159,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "Z790",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "Z790",
+    "Socket": "LGA1700",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "msi-mpg-z790-carbon-wifi",
+   "cat": "placa-mae",
+   "brand": "MSI",
+   "name": "MPG Z790 Carbon WiFi",
+   "price": 3299,
+   "list": 3549,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "Z790",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "Z790",
+    "Socket": "LGA1700",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-rog-maximus-z790-hero",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "ROG Maximus Z790 Hero",
+   "price": 4999,
+   "list": 6409,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "Z790",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "Z790",
+    "Socket": "LGA1700",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "gigabyte-z790-aorus-master",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "Z790 AORUS Master",
+   "price": 4299,
+   "list": 4779,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "Z790",
+    "Memória": "DDR5",
+    "Formato": "E-ATX"
+   },
+   "specs": {
+    "Chipset": "Z790",
+    "Socket": "LGA1700",
+    "Formato": "E-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-rog-strix-z790-e-gaming-wifi-ii",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "ROG Strix Z790-E Gaming WiFi II",
+   "price": 3499,
+   "list": 4269,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "Z790",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "Z790",
+    "Socket": "LGA1700",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asrock-z790-taichi",
+   "cat": "placa-mae",
+   "brand": "ASRock",
+   "name": "Z790 Taichi",
+   "price": 3999,
+   "list": 4699,
+   "attr": {
+    "Socket": "LGA1700",
+    "Chipset": "Z790",
+    "Memória": "DDR5",
+    "Formato": "E-ATX"
+   },
+   "specs": {
+    "Chipset": "Z790",
+    "Socket": "LGA1700",
+    "Formato": "E-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "msi-pro-z890-p-wifi",
+   "cat": "placa-mae",
+   "brand": "MSI",
+   "name": "PRO Z890-P WiFi",
+   "price": 1999,
+   "list": 2499,
+   "attr": {
+    "Socket": "LGA1851",
+    "Chipset": "Z890",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "Z890",
+    "Socket": "LGA1851",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "asus-rog-maximus-z890-hero",
+   "cat": "placa-mae",
+   "brand": "ASUS",
+   "name": "ROG Maximus Z890 Hero",
+   "price": 5499,
+   "list": 7049,
+   "attr": {
+    "Socket": "LGA1851",
+    "Chipset": "Z890",
+    "Memória": "DDR5",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Chipset": "Z890",
+    "Socket": "LGA1851",
+    "Formato": "ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "gigabyte-z890-aorus-master",
+   "cat": "placa-mae",
+   "brand": "Gigabyte",
+   "name": "Z890 AORUS Master",
+   "price": 4799,
+   "list": 5329,
+   "attr": {
+    "Socket": "LGA1851",
+    "Chipset": "Z890",
+    "Memória": "DDR5",
+    "Formato": "E-ATX"
+   },
+   "specs": {
+    "Chipset": "Z890",
+    "Socket": "LGA1851",
+    "Formato": "E-ATX",
+    "Memória": "DDR5"
+   }
+  },
+  {
+   "id": "kingston-valueram-8-gb-ddr4-2666-mhz",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "ValueRAM 8 GB DDR4 2666 MHz",
+   "price": 149,
+   "list": 159,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "8 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "8 GB",
+    "Kit": "1 × 8 GB",
+    "Frequência": "2666 MHz",
+    "Latência": "CL19",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-beast-8-gb-ddr4-3200-mhz",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Beast 8 GB DDR4 3200 MHz",
+   "price": 169,
+   "list": 179,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "8 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "8 GB",
+    "Kit": "1 × 8 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL16",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "corsair-vengeance-lpx-16-gb-28-ddr4-3200",
+   "cat": "ram",
+   "brand": "Corsair",
+   "name": "Vengeance LPX 16 GB (2×8) DDR4 3200 MHz",
+   "price": 379,
+   "list": 399,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Kit": "2 × 8 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL16",
+    "Uso": "Desktop"
+   },
+   "hot": 1
+  },
+  {
+   "id": "xpg-spectrix-d41-rgb-16-gb-28-ddr4-3200-",
+   "cat": "ram",
+   "brand": "XPG",
+   "name": "Spectrix D41 RGB 16 GB (2×8) DDR4 3200 MHz",
+   "price": 399,
+   "list": 439,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Kit": "2 × 8 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL16",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-renegade-16-gb-28-ddr4-360",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Renegade 16 GB (2×8) DDR4 3600 MHz",
+   "price": 429,
+   "list": 479,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Kit": "2 × 8 GB",
+    "Frequência": "3600 MHz",
+    "Latência": "CL16",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "crucial-basics-16-gb-ddr4-3200-mhz",
+   "cat": "ram",
+   "brand": "Crucial",
+   "name": "Basics 16 GB DDR4 3200 MHz",
+   "price": 279,
+   "list": 349,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Kit": "1 × 16 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL22",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-beast-16-gb-ddr4-3200-mhz",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Beast 16 GB DDR4 3200 MHz",
+   "price": 299,
+   "list": 339,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Kit": "1 × 16 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL16",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "corsair-vengeance-lpx-32-gb-216-ddr4-320",
+   "cat": "ram",
+   "brand": "Corsair",
+   "name": "Vengeance LPX 32 GB (2×16) DDR4 3200 MHz",
+   "price": 699,
+   "list": 749,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL16",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "xpg-spectrix-d60g-rgb-32-gb-216-ddr4-360",
+   "cat": "ram",
+   "brand": "XPG",
+   "name": "Spectrix D60G RGB 32 GB (2×16) DDR4 3600 MHz",
+   "price": 799,
+   "list": 1019,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "3600 MHz",
+    "Latência": "CL18",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-renegade-32-gb-216-ddr4-36",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Renegade 32 GB (2×16) DDR4 3600 MHz",
+   "price": 849,
+   "list": 1059,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "3600 MHz",
+    "Latência": "CL16",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "corsair-vengeance-lpx-64-gb-232-ddr4-320",
+   "cat": "ram",
+   "brand": "Corsair",
+   "name": "Vengeance LPX 64 GB (2×32) DDR4 3200 MHz",
+   "price": 1399,
+   "list": 1469,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "64 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "64 GB",
+    "Kit": "2 × 32 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL16",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "corsair-vengeance-rgb-pro-64-gb-416-ddr4",
+   "cat": "ram",
+   "brand": "Corsair",
+   "name": "Vengeance RGB Pro 64 GB (4×16) DDR4 3600 MHz",
+   "price": 1599,
+   "list": 1999,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "64 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "64 GB",
+    "Kit": "4 × 16 GB",
+    "Frequência": "3600 MHz",
+    "Latência": "CL18",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-impact-8-gb-ddr4-3200-mhz-",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Impact 8 GB DDR4 3200 MHz SO-DIMM",
+   "price": 169,
+   "list": 179,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "8 GB",
+    "Uso": "Notebook"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "8 GB",
+    "Kit": "1 × 8 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL20",
+    "Uso": "Notebook"
+   }
+  },
+  {
+   "id": "kingston-fury-impact-16-gb-ddr4-3200-mhz",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Impact 16 GB DDR4 3200 MHz SO-DIMM",
+   "price": 299,
+   "list": 369,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Uso": "Notebook"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Kit": "1 × 16 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL20",
+    "Uso": "Notebook"
+   }
+  },
+  {
+   "id": "crucial-32-gb-ddr4-3200-mhz-so-dimm",
+   "cat": "ram",
+   "brand": "Crucial",
+   "name": "32 GB DDR4 3200 MHz SO-DIMM",
+   "price": 599,
+   "list": 649,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Uso": "Notebook"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Kit": "1 × 32 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL22",
+    "Uso": "Notebook"
+   }
+  },
+  {
+   "id": "kingston-server-premier-16-gb-ddr4-3200-",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Server Premier 16 GB DDR4 3200 MHz ECC",
+   "price": 599,
+   "list": 629,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Uso": "Servidor (ECC)"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "16 GB",
+    "Kit": "1 × 16 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL22",
+    "Uso": "Servidor (ECC)"
+   }
+  },
+  {
+   "id": "kingston-server-premier-32-gb-ddr4-3200-",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Server Premier 32 GB DDR4 3200 MHz ECC",
+   "price": 999,
+   "list": 1089,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Uso": "Servidor (ECC)"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Kit": "1 × 32 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL22",
+    "Uso": "Servidor (ECC)"
+   }
+  },
+  {
+   "id": "kingston-server-premier-32-gb-ddr4-3200--2",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Server Premier 32 GB DDR4 3200 MHz (workstation)",
+   "price": 899,
+   "list": 969,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Uso": "Servidor (ECC)"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "32 GB",
+    "Kit": "1 × 32 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL22",
+    "Uso": "Servidor (ECC)"
+   }
+  },
+  {
+   "id": "kingston-server-premier-128-gb-432-ddr4-",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Server Premier 128 GB (4×32) DDR4 3200 MHz ECC",
+   "price": 3299,
+   "list": 3669,
+   "attr": {
+    "Tipo": "DDR4",
+    "Capacidade": "128 GB",
+    "Uso": "Servidor (ECC)"
+   },
+   "specs": {
+    "Tipo": "DDR4",
+    "Capacidade": "128 GB",
+    "Kit": "4 × 32 GB",
+    "Frequência": "3200 MHz",
+    "Latência": "CL22",
+    "Uso": "Servidor (ECC)"
+   }
+  },
+  {
+   "id": "kingston-valueram-8-gb-ddr5-4800-mhz",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "ValueRAM 8 GB DDR5 4800 MHz",
+   "price": 249,
+   "list": 319,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "8 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "8 GB",
+    "Kit": "1 × 8 GB",
+    "Frequência": "4800 MHz",
+    "Latência": "CL40",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "crucial-16-gb-ddr5-4800-mhz",
+   "cat": "ram",
+   "brand": "Crucial",
+   "name": "16 GB DDR5 4800 MHz",
+   "price": 399,
+   "list": 499,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "16 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "16 GB",
+    "Kit": "1 × 16 GB",
+    "Frequência": "4800 MHz",
+    "Latência": "CL40",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-beast-16-gb-ddr5-5200-mhz",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Beast 16 GB DDR5 5200 MHz",
+   "price": 449,
+   "list": 479,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "16 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "16 GB",
+    "Kit": "1 × 16 GB",
+    "Frequência": "5200 MHz",
+    "Latência": "CL40",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "xpg-lancer-16-gb-ddr5-5600-mhz",
+   "cat": "ram",
+   "brand": "XPG",
+   "name": "Lancer 16 GB DDR5 5600 MHz",
+   "price": 499,
+   "list": 539,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "16 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "16 GB",
+    "Kit": "1 × 16 GB",
+    "Frequência": "5600 MHz",
+    "Latência": "CL46",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "corsair-vengeance-32-gb-216-ddr5-5200-mh",
+   "cat": "ram",
+   "brand": "Corsair",
+   "name": "Vengeance 32 GB (2×16) DDR5 5200 MHz",
+   "price": 899,
+   "list": 999,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "5200 MHz",
+    "Latência": "CL40",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-beast-32-gb-216-ddr5-5600-",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Beast 32 GB (2×16) DDR5 5600 MHz",
+   "price": 949,
+   "list": 1219,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "5600 MHz",
+    "Latência": "CL40",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-beast-32-gb-216-ddr5-6000-",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Beast 32 GB (2×16) DDR5 6000 MHz CL30",
+   "price": 909,
+   "list": 1299,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "6000 MHz",
+    "Latência": "CL30",
+    "Uso": "Desktop"
+   },
+   "hot": 1,
+   "esq": 1
+  },
+  {
+   "id": "xpg-lancer-32-gb-216-ddr5-6000-mhz-cl30",
+   "cat": "ram",
+   "brand": "XPG",
+   "name": "Lancer 32 GB (2×16) DDR5 6000 MHz CL30",
+   "price": 999,
+   "list": 1139,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "6000 MHz",
+    "Latência": "CL30",
+    "Uso": "Desktop"
+   },
+   "hot": 1
+  },
+  {
+   "id": "corsair-vengeance-rgb-32-gb-216-ddr5-600",
+   "cat": "ram",
+   "brand": "Corsair",
+   "name": "Vengeance RGB 32 GB (2×16) DDR5 6000 MHz",
+   "price": 1199,
+   "list": 1259,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "6000 MHz",
+    "Latência": "CL36",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "g-skill-trident-z5-rgb-32-gb-216-ddr5-64",
+   "cat": "ram",
+   "brand": "G.Skill",
+   "name": "Trident Z5 RGB 32 GB (2×16) DDR5 6400 MHz",
+   "price": 1399,
+   "list": 1499,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "6400 MHz",
+    "Latência": "CL32",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "g-skill-trident-z5-32-gb-216-ddr5-7200-m",
+   "cat": "ram",
+   "brand": "G.Skill",
+   "name": "Trident Z5 32 GB (2×16) DDR5 7200 MHz",
+   "price": 1699,
+   "list": 1999,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "2 × 16 GB",
+    "Frequência": "7200 MHz",
+    "Latência": "CL34",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-beast-32-gb-ddr5-5600-mhz",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Beast 32 GB DDR5 5600 MHz",
+   "price": 899,
+   "list": 1059,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "1 × 32 GB",
+    "Frequência": "5600 MHz",
+    "Latência": "CL40",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "corsair-vengeance-64-gb-232-ddr5-5600-mh",
+   "cat": "ram",
+   "brand": "Corsair",
+   "name": "Vengeance 64 GB (2×32) DDR5 5600 MHz",
+   "price": 1799,
+   "list": 2309,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Kit": "2 × 32 GB",
+    "Frequência": "5600 MHz",
+    "Latência": "CL40",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "g-skill-flare-x5-64-gb-232-ddr5-6000-mhz",
+   "cat": "ram",
+   "brand": "G.Skill",
+   "name": "Flare X5 64 GB (2×32) DDR5 6000 MHz",
+   "price": 2199,
+   "list": 2389,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Kit": "2 × 32 GB",
+    "Frequência": "6000 MHz",
+    "Latência": "CL30",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-renegade-rgb-64-gb-232-ddr",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Renegade RGB 64 GB (2×32) DDR5 6400 MHz",
+   "price": 2599,
+   "list": 3329,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Kit": "2 × 32 GB",
+    "Frequência": "6400 MHz",
+    "Latência": "CL32",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "kingston-fury-beast-128-gb-432-ddr5-5600",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Beast 128 GB (4×32) DDR5 5600 MHz (workstation)",
+   "price": 3999,
+   "list": 4439,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "128 GB",
+    "Uso": "Desktop"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "128 GB",
+    "Kit": "4 × 32 GB",
+    "Frequência": "5600 MHz",
+    "Latência": "CL40",
+    "Uso": "Desktop"
+   }
+  },
+  {
+   "id": "crucial-8-gb-ddr5-4800-mhz-so-dimm",
+   "cat": "ram",
+   "brand": "Crucial",
+   "name": "8 GB DDR5 4800 MHz SO-DIMM",
+   "price": 249,
+   "list": 279,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "8 GB",
+    "Uso": "Notebook"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "8 GB",
+    "Kit": "1 × 8 GB",
+    "Frequência": "4800 MHz",
+    "Latência": "CL40",
+    "Uso": "Notebook"
+   }
+  },
+  {
+   "id": "kingston-fury-impact-16-gb-ddr5-5600-mhz",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Impact 16 GB DDR5 5600 MHz SO-DIMM",
+   "price": 449,
+   "list": 549,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "16 GB",
+    "Uso": "Notebook"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "16 GB",
+    "Kit": "1 × 16 GB",
+    "Frequência": "5600 MHz",
+    "Latência": "CL40",
+    "Uso": "Notebook"
+   }
+  },
+  {
+   "id": "crucial-32-gb-ddr5-5600-mhz-so-dimm",
+   "cat": "ram",
+   "brand": "Crucial",
+   "name": "32 GB DDR5 5600 MHz SO-DIMM",
+   "price": 849,
+   "list": 1039,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Notebook"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "1 × 32 GB",
+    "Frequência": "5600 MHz",
+    "Latência": "CL46",
+    "Uso": "Notebook"
+   }
+  },
+  {
+   "id": "kingston-fury-impact-64-gb-232-ddr5-5600",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Fury Impact 64 GB (2×32) DDR5 5600 MHz SO-DIMM",
+   "price": 1699,
+   "list": 1889,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Uso": "Notebook"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Kit": "2 × 32 GB",
+    "Frequência": "5600 MHz",
+    "Latência": "CL40",
+    "Uso": "Notebook"
+   }
+  },
+  {
+   "id": "kingston-server-premier-32-gb-ddr5-4800-",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Server Premier 32 GB DDR5 4800 MHz ECC RDIMM",
+   "price": 1399,
+   "list": 1749,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Uso": "Servidor (ECC)"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "32 GB",
+    "Kit": "1 × 32 GB",
+    "Frequência": "4800 MHz",
+    "Latência": "CL40",
+    "Uso": "Servidor (ECC)"
+   }
+  },
+  {
+   "id": "kingston-server-premier-64-gb-ddr5-4800-",
+   "cat": "ram",
+   "brand": "Kingston",
+   "name": "Server Premier 64 GB DDR5 4800 MHz ECC RDIMM",
+   "price": 2599,
+   "list": 2819,
+   "attr": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Uso": "Servidor (ECC)"
+   },
+   "specs": {
+    "Tipo": "DDR5",
+    "Capacidade": "64 GB",
+    "Kit": "1 × 64 GB",
+    "Frequência": "4800 MHz",
+    "Latência": "CL40",
+    "Uso": "Servidor (ECC)"
+   }
+  },
+  {
+   "id": "kingston-nv2-250-gb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "NV2 250 GB",
+   "price": 219,
+   "list": 269,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "250 GB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "250 GB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "3000 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "kingston-nv2-500-gb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "NV2 500 GB",
+   "price": 269,
+   "list": 309,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "500 GB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "500 GB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "3500 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "crucial-p3-500-gb",
+   "cat": "armazenamento",
+   "brand": "Crucial",
+   "name": "P3 500 GB",
+   "price": 279,
+   "list": 329,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "500 GB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "500 GB",
+    "Interface": "M.2 PCIe 3.0",
+    "Velocidade": "3500 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "kingston-nv2-1-tb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "NV2 1 TB",
+   "price": 399,
+   "list": 429,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "3500 MB/s",
+    "Detalhe": "M.2 2280"
+   },
+   "hot": 1
+  },
+  {
+   "id": "crucial-p3-plus-1-tb",
+   "cat": "armazenamento",
+   "brand": "Crucial",
+   "name": "P3 Plus 1 TB",
+   "price": 479,
+   "list": 599,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "5000 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "wd-wd-blue-sn580-1-tb",
+   "cat": "armazenamento",
+   "brand": "WD",
+   "name": "WD Blue SN580 1 TB",
+   "price": 499,
+   "list": 569,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "4150 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "xpg-spectrix-s40g-rgb-1-tb",
+   "cat": "armazenamento",
+   "brand": "XPG",
+   "name": "Spectrix S40G RGB 1 TB",
+   "price": 549,
+   "list": 609,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB",
+    "Interface": "M.2 PCIe 3.0",
+    "Velocidade": "3500 MB/s",
+    "Detalhe": "Dissipador RGB"
+   }
+  },
+  {
+   "id": "kingston-fury-renegade-1-tb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "Fury Renegade 1 TB",
+   "price": 749,
+   "list": 809,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7300 MB/s",
+    "Detalhe": "Com DRAM"
+   }
+  },
+  {
+   "id": "samsung-990-pro-1-tb",
+   "cat": "armazenamento",
+   "brand": "Samsung",
+   "name": "990 PRO 1 TB",
+   "price": 799,
+   "list": 909,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7450 MB/s",
+    "Detalhe": "Com DRAM"
+   }
+  },
+  {
+   "id": "lexar-lexar-nm790-1-tb",
+   "cat": "armazenamento",
+   "brand": "Lexar",
+   "name": "Lexar NM790 1 TB",
+   "price": 599,
+   "list": 649,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7400 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "corsair-mp600-pro-xt-1-tb",
+   "cat": "armazenamento",
+   "brand": "Corsair",
+   "name": "MP600 Pro XT 1 TB",
+   "price": 849,
+   "list": 1059,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "1 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7100 MB/s",
+    "Detalhe": "Dissipador"
+   }
+  },
+  {
+   "id": "corsair-mp600-pro-lpx-500-gb",
+   "cat": "armazenamento",
+   "brand": "Corsair",
+   "name": "MP600 Pro LPX 500 GB",
+   "price": 549,
+   "list": 689,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "500 GB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "500 GB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7100 MB/s",
+    "Detalhe": "Dissipador (PS5)"
+   }
+  },
+  {
+   "id": "sandisk-extreme-m-2-500-gb",
+   "cat": "armazenamento",
+   "brand": "SanDisk",
+   "name": "Extreme M.2 500 GB",
+   "price": 399,
+   "list": 469,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "500 GB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "500 GB",
+    "Interface": "M.2 PCIe 3.0",
+    "Velocidade": "3400 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "kingston-nv2-2-tb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "NV2 2 TB",
+   "price": 749,
+   "list": 789,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "3500 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "crucial-p3-plus-2-tb",
+   "cat": "armazenamento",
+   "brand": "Crucial",
+   "name": "P3 Plus 2 TB",
+   "price": 899,
+   "list": 949,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "5000 MB/s",
+    "Detalhe": "M.2 2280"
+   }
+  },
+  {
+   "id": "wd-wd-black-sn850x-2-tb",
+   "cat": "armazenamento",
+   "brand": "WD",
+   "name": "WD_Black SN850X 2 TB",
+   "price": 1299,
+   "list": 1439,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7300 MB/s",
+    "Detalhe": "Com DRAM"
+   }
+  },
+  {
+   "id": "samsung-990-pro-2-tb-com-dissipador",
+   "cat": "armazenamento",
+   "brand": "Samsung",
+   "name": "990 PRO 2 TB com dissipador",
+   "price": 1599,
+   "list": 1719,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7450 MB/s",
+    "Detalhe": "Dissipador RGB"
+   }
+  },
+  {
+   "id": "acer-predator-gm7000-2-tb",
+   "cat": "armazenamento",
+   "brand": "Acer",
+   "name": "Predator GM7000 2 TB",
+   "price": 1199,
+   "list": 1359,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "2 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7400 MB/s",
+    "Detalhe": "Com DRAM"
+   }
+  },
+  {
+   "id": "kingston-fury-renegade-4-tb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "Fury Renegade 4 TB",
+   "price": 2799,
+   "list": 3289,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "4 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "4 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7300 MB/s",
+    "Detalhe": "Com DRAM"
+   }
+  },
+  {
+   "id": "wd-wd-black-sn850x-4-tb",
+   "cat": "armazenamento",
+   "brand": "WD",
+   "name": "WD_Black SN850X 4 TB",
+   "price": 2899,
+   "list": 3719,
+   "attr": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "4 TB"
+   },
+   "specs": {
+    "Tipo": "SSD NVMe",
+    "Capacidade": "4 TB",
+    "Interface": "M.2 PCIe 4.0",
+    "Velocidade": "7300 MB/s",
+    "Detalhe": "Com DRAM"
+   }
+  },
+  {
+   "id": "kingston-a400-120-gb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "A400 120 GB",
+   "price": 129,
+   "list": 169,
+   "attr": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "120 GB"
+   },
+   "specs": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "120 GB",
+    "Interface": "SATA III 2,5\"",
+    "Velocidade": "500 MB/s",
+    "Detalhe": "2,5\""
+   }
+  },
+  {
+   "id": "kingston-a400-240-gb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "A400 240 GB",
+   "price": 159,
+   "list": 169,
+   "attr": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "240 GB"
+   },
+   "specs": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "240 GB",
+    "Interface": "SATA III 2,5\"",
+    "Velocidade": "500 MB/s",
+    "Detalhe": "2,5\""
+   }
+  },
+  {
+   "id": "kingston-a400-480-gb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "A400 480 GB",
+   "price": 229,
+   "list": 249,
+   "attr": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "480 GB"
+   },
+   "specs": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "480 GB",
+    "Interface": "SATA III 2,5\"",
+    "Velocidade": "500 MB/s",
+    "Detalhe": "2,5\""
+   },
+   "hot": 1
+  },
+  {
+   "id": "kingston-a400-960-gb",
+   "cat": "armazenamento",
+   "brand": "Kingston",
+   "name": "A400 960 GB",
+   "price": 429,
+   "list": 469,
+   "attr": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "960 GB"
+   },
+   "specs": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "960 GB",
+    "Interface": "SATA III 2,5\"",
+    "Velocidade": "500 MB/s",
+    "Detalhe": "2,5\""
+   }
+  },
+  {
+   "id": "crucial-bx500-1-tb",
+   "cat": "armazenamento",
+   "brand": "Crucial",
+   "name": "BX500 1 TB",
+   "price": 449,
+   "list": 479,
+   "attr": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "1 TB",
+    "Interface": "SATA III 2,5\"",
+    "Velocidade": "540 MB/s",
+    "Detalhe": "2,5\""
+   }
+  },
+  {
+   "id": "samsung-870-qvo-2-tb",
+   "cat": "armazenamento",
+   "brand": "Samsung",
+   "name": "870 QVO 2 TB",
+   "price": 1099,
+   "list": 1339,
+   "attr": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "SSD SATA",
+    "Capacidade": "2 TB",
+    "Interface": "SATA III 2,5\"",
+    "Velocidade": "560 MB/s",
+    "Detalhe": "2,5\""
+   }
+  },
+  {
+   "id": "wd-wd-blue-500-gb",
+   "cat": "armazenamento",
+   "brand": "WD",
+   "name": "WD Blue 500 GB",
+   "price": 299,
+   "list": 379,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "500 GB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "500 GB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "7200 RPM",
+    "Detalhe": "3,5\""
+   }
+  },
+  {
+   "id": "seagate-barracuda-1-tb",
+   "cat": "armazenamento",
+   "brand": "Seagate",
+   "name": "Barracuda 1 TB",
+   "price": 349,
+   "list": 379,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "1 TB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "7200 RPM",
+    "Detalhe": "3,5\""
+   }
+  },
+  {
+   "id": "wd-wd-blue-1-tb",
+   "cat": "armazenamento",
+   "brand": "WD",
+   "name": "WD Blue 1 TB",
+   "price": 339,
+   "list": 409,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "1 TB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "7200 RPM",
+    "Detalhe": "3,5\""
+   }
+  },
+  {
+   "id": "seagate-barracuda-2-tb",
+   "cat": "armazenamento",
+   "brand": "Seagate",
+   "name": "Barracuda 2 TB",
+   "price": 449,
+   "list": 489,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "2 TB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "7200 RPM",
+    "Detalhe": "3,5\""
+   }
+  },
+  {
+   "id": "wd-wd-blue-2-tb",
+   "cat": "armazenamento",
+   "brand": "WD",
+   "name": "WD Blue 2 TB",
+   "price": 459,
+   "list": 509,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "2 TB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "5400 RPM",
+    "Detalhe": "3,5\""
+   }
+  },
+  {
+   "id": "wd-wd-purple-4-tb-cftv",
+   "cat": "armazenamento",
+   "brand": "WD",
+   "name": "WD Purple 4 TB (CFTV)",
+   "price": 799,
+   "list": 939,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "4 TB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "4 TB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "5400 RPM",
+    "Detalhe": "Uso 24/7 CFTV"
+   }
+  },
+  {
+   "id": "seagate-ironwolf-4-tb-nas",
+   "cat": "armazenamento",
+   "brand": "Seagate",
+   "name": "IronWolf 4 TB (NAS)",
+   "price": 899,
+   "list": 1059,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "4 TB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "4 TB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "5400 RPM",
+    "Detalhe": "Uso 24/7 NAS"
+   }
+  },
+  {
+   "id": "seagate-barracuda-6-tb",
+   "cat": "armazenamento",
+   "brand": "Seagate",
+   "name": "Barracuda 6 TB",
+   "price": 1199,
+   "list": 1329,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "6 TB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "6 TB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "5400 RPM",
+    "Detalhe": "3,5\""
+   }
+  },
+  {
+   "id": "wd-wd-red-pro-8-tb-nas",
+   "cat": "armazenamento",
+   "brand": "WD",
+   "name": "WD Red Pro 8 TB (NAS)",
+   "price": 1899,
+   "list": 2039,
+   "attr": {
+    "Tipo": "HDD",
+    "Capacidade": "8 TB"
+   },
+   "specs": {
+    "Tipo": "HDD",
+    "Capacidade": "8 TB",
+    "Interface": "SATA III 3,5\"",
+    "Velocidade": "7200 RPM",
+    "Detalhe": "Uso 24/7 NAS"
+   }
+  },
+  {
+   "id": "sandisk-portable-ssd-500-gb",
+   "cat": "armazenamento",
+   "brand": "SanDisk",
+   "name": "Portable SSD 500 GB",
+   "price": 449,
+   "list": 559,
+   "attr": {
+    "Tipo": "Externo",
+    "Capacidade": "500 GB"
+   },
+   "specs": {
+    "Tipo": "Externo",
+    "Capacidade": "500 GB",
+    "Interface": "USB 3.2 Gen 2",
+    "Velocidade": "520 MB/s",
+    "Detalhe": "Portátil"
+   }
+  },
+  {
+   "id": "samsung-t7-1-tb-usb-c",
+   "cat": "armazenamento",
+   "brand": "Samsung",
+   "name": "T7 1 TB USB-C",
+   "price": 699,
+   "list": 759,
+   "attr": {
+    "Tipo": "Externo",
+    "Capacidade": "1 TB"
+   },
+   "specs": {
+    "Tipo": "Externo",
+    "Capacidade": "1 TB",
+    "Interface": "USB 3.2 Gen 2",
+    "Velocidade": "1050 MB/s",
+    "Detalhe": "Portátil"
+   }
+  },
+  {
+   "id": "sandisk-extreme-pro-portable-2-tb",
+   "cat": "armazenamento",
+   "brand": "SanDisk",
+   "name": "Extreme Pro Portable 2 TB",
+   "price": 1499,
+   "list": 1829,
+   "attr": {
+    "Tipo": "Externo",
+    "Capacidade": "2 TB"
+   },
+   "specs": {
+    "Tipo": "Externo",
+    "Capacidade": "2 TB",
+    "Interface": "USB 3.2 Gen 2x2",
+    "Velocidade": "2000 MB/s",
+    "Detalhe": "Portátil, IP65"
+   }
+  },
+  {
+   "id": "ugreen-case-m-2-nvme-para-usb-c-3-2",
+   "cat": "armazenamento",
+   "brand": "Ugreen",
+   "name": "Case M.2 NVMe para USB-C 3.2",
+   "price": 149,
+   "list": 179,
+   "attr": {
+    "Tipo": "Acessório"
+   },
+   "specs": {
+    "Tipo": "Acessório",
+    "Interface": "USB 3.2 Gen 2",
+    "Velocidade": "10 Gbps",
+    "Detalhe": "Alumínio"
+   }
+  },
+  {
+   "id": "ugreen-gaveta-externa-usb-3-0-para-ssd-h",
+   "cat": "armazenamento",
+   "brand": "Ugreen",
+   "name": "Gaveta externa USB 3.0 para SSD/HDD 2,5\"",
+   "price": 79,
+   "list": 99,
+   "attr": {
+    "Tipo": "Acessório"
+   },
+   "specs": {
+    "Tipo": "Acessório",
+    "Interface": "USB 3.0",
+    "Velocidade": "5 Gbps",
+    "Detalhe": "Sem ferramentas"
+   }
+  },
+  {
+   "id": "cooler-master-elite-v4-400-w",
+   "cat": "fonte",
+   "brand": "Cooler Master",
+   "name": "Elite V4 400 W",
+   "price": 229,
+   "list": 249,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "White",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "400 W",
+    "Certificação": "80 Plus White",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "redragon-rgps-500-w",
+   "cat": "fonte",
+   "brand": "Redragon",
+   "name": "RGPS 500 W",
+   "price": 279,
+   "list": 299,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "500 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "msi-mag-a500dn-500-w",
+   "cat": "fonte",
+   "brand": "MSI",
+   "name": "MAG A500DN 500 W",
+   "price": 299,
+   "list": 349,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "500 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "corsair-cv500-500-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "CV500 500 W",
+   "price": 329,
+   "list": 369,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "500 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "cooler-master-mwe-500-white-v2-pfc-ativo",
+   "cat": "fonte",
+   "brand": "Cooler Master",
+   "name": "MWE 500 White V2 (PFC ativo)",
+   "price": 259,
+   "list": 279,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "White",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "500 W",
+    "Certificação": "80 Plus White",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "cooler-master-mwe-550-bronze-v2",
+   "cat": "fonte",
+   "brand": "Cooler Master",
+   "name": "MWE 550 Bronze V2",
+   "price": 339,
+   "list": 359,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "550 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "cooler-master-elite-v4-600-w",
+   "cat": "fonte",
+   "brand": "Cooler Master",
+   "name": "Elite V4 600 W",
+   "price": 299,
+   "list": 319,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "White",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "600 W",
+    "Certificação": "80 Plus White",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "evga-600-br-600-w",
+   "cat": "fonte",
+   "brand": "EVGA",
+   "name": "600 BR 600 W",
+   "price": 349,
+   "list": 429,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "600 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "deepcool-pk600d-600-w",
+   "cat": "fonte",
+   "brand": "DeepCool",
+   "name": "PK600D 600 W",
+   "price": 369,
+   "list": 419,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "600 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "corsair-cv650-650-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "CV650 650 W",
+   "price": 399,
+   "list": 469,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "650 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "msi-mag-a650bn-650-w",
+   "cat": "fonte",
+   "brand": "MSI",
+   "name": "MAG A650BN 650 W",
+   "price": 329,
+   "list": 349,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "650 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   },
+   "hot": 1
+  },
+  {
+   "id": "gigabyte-p750bs-750-w",
+   "cat": "fonte",
+   "brand": "Gigabyte",
+   "name": "P750BS 750 W",
+   "price": 449,
+   "list": 489,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Bronze",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "750 W",
+    "Certificação": "80 Plus Bronze",
+    "Modularidade": "Não modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "corsair-rm550x-550-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "RM550x 550 W",
+   "price": 649,
+   "list": 809,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "550 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "xpg-core-reactor-650-w",
+   "cat": "fonte",
+   "brand": "XPG",
+   "name": "Core Reactor 650 W",
+   "price": 599,
+   "list": 629,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "650 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "asus-rog-strix-650-w-gold",
+   "cat": "fonte",
+   "brand": "ASUS",
+   "name": "ROG Strix 650 W Gold",
+   "price": 899,
+   "list": 999,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "650 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "xpg-core-reactor-ii-750-w",
+   "cat": "fonte",
+   "brand": "XPG",
+   "name": "Core Reactor II 750 W",
+   "price": 749,
+   "list": 809,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "750 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "corsair-rm750e-750-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "RM750e 750 W",
+   "price": 649,
+   "list": 789,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "750 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX 3.0"
+   },
+   "hot": 1
+  },
+  {
+   "id": "corsair-rm750x-750-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "RM750x 750 W",
+   "price": 899,
+   "list": 1149,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "750 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "msi-mag-a750gl-pcie5-750-w",
+   "cat": "fonte",
+   "brand": "MSI",
+   "name": "MAG A750GL PCIE5 750 W",
+   "price": 699,
+   "list": 779,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "750 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX 3.0"
+   }
+  },
+  {
+   "id": "cooler-master-v750-gold-i-multi",
+   "cat": "fonte",
+   "brand": "Cooler Master",
+   "name": "V750 Gold i-Multi",
+   "price": 1099,
+   "list": 1369,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "750 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "xpg-core-reactor-ii-850-w",
+   "cat": "fonte",
+   "brand": "XPG",
+   "name": "Core Reactor II 850 W",
+   "price": 899,
+   "list": 979,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "850 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "corsair-rm850x-850-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "RM850x 850 W",
+   "price": 1049,
+   "list": 1339,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "850 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX 3.1"
+   }
+  },
+  {
+   "id": "msi-mag-a850gl-pcie5-850-w",
+   "cat": "fonte",
+   "brand": "MSI",
+   "name": "MAG A850GL PCIE5 850 W",
+   "price": 849,
+   "list": 919,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "850 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX 3.0"
+   }
+  },
+  {
+   "id": "seasonic-focus-px-850-850-w",
+   "cat": "fonte",
+   "brand": "Seasonic",
+   "name": "Focus PX-850 850 W",
+   "price": 1399,
+   "list": 1789,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Platinum",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "850 W",
+    "Certificação": "80 Plus Platinum",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "asus-rog-thor-850-w-platinum-ii-display-",
+   "cat": "fonte",
+   "brand": "ASUS",
+   "name": "ROG Thor 850 W Platinum II (display OLED)",
+   "price": 2099,
+   "list": 2389,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Platinum",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "850 W",
+    "Certificação": "80 Plus Platinum",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "corsair-rm1000x-1000-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "RM1000x 1000 W",
+   "price": 1499,
+   "list": 1669,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Gold",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "1000 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "msi-meg-ai1000p-pcie5-1000-w",
+   "cat": "fonte",
+   "brand": "MSI",
+   "name": "MEG Ai1000P PCIE5 1000 W",
+   "price": 2199,
+   "list": 2439,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Platinum",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "1000 W",
+    "Certificação": "80 Plus Platinum",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX 3.0"
+   }
+  },
+  {
+   "id": "seasonic-prime-tx-1000-1000-w",
+   "cat": "fonte",
+   "brand": "Seasonic",
+   "name": "Prime TX-1000 1000 W",
+   "price": 2999,
+   "list": 3329,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Titanium",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "1000 W",
+    "Certificação": "80 Plus Titanium",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "asus-rog-thor-1200-w-platinum-ii",
+   "cat": "fonte",
+   "brand": "ASUS",
+   "name": "ROG Thor 1200 W Platinum II",
+   "price": 2999,
+   "list": 3329,
+   "attr": {
+    "Potência": "1200 W ou mais",
+    "Certificação": "Platinum",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "1200 W",
+    "Certificação": "80 Plus Platinum",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX 3.0"
+   }
+  },
+  {
+   "id": "msi-meg-ai1300p-pcie5-1300-w",
+   "cat": "fonte",
+   "brand": "MSI",
+   "name": "MEG Ai1300P PCIE5 1300 W",
+   "price": 2799,
+   "list": 3039,
+   "attr": {
+    "Potência": "1200 W ou mais",
+    "Certificação": "Platinum",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "1300 W",
+    "Certificação": "80 Plus Platinum",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX 3.0"
+   }
+  },
+  {
+   "id": "corsair-ax1600i-1600-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "AX1600i 1600 W",
+   "price": 5999,
+   "list": 6309,
+   "attr": {
+    "Potência": "1200 W ou mais",
+    "Certificação": "Titanium",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "1600 W",
+    "Certificação": "80 Plus Titanium",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX"
+   }
+  },
+  {
+   "id": "seasonic-prime-px-1600-1600-w-multi-gpu",
+   "cat": "fonte",
+   "brand": "Seasonic",
+   "name": "Prime PX-1600 1600 W (multi-GPU)",
+   "price": 3999,
+   "list": 4439,
+   "attr": {
+    "Potência": "1200 W ou mais",
+    "Certificação": "Platinum",
+    "Formato": "ATX"
+   },
+   "specs": {
+    "Potência": "1600 W",
+    "Certificação": "80 Plus Platinum",
+    "Modularidade": "Full modular",
+    "Padrão": "ATX 3.1"
+   }
+  },
+  {
+   "id": "cooler-master-v550-sfx-gold",
+   "cat": "fonte",
+   "brand": "Cooler Master",
+   "name": "V550 SFX Gold",
+   "price": 699,
+   "list": 759,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "Gold",
+    "Formato": "SFX"
+   },
+   "specs": {
+    "Potência": "550 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "SFX"
+   }
+  },
+  {
+   "id": "corsair-sf650-650-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "SF650 650 W",
+   "price": 899,
+   "list": 999,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Gold",
+    "Formato": "SFX"
+   },
+   "specs": {
+    "Potência": "650 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "SFX"
+   }
+  },
+  {
+   "id": "corsair-sf750-750-w",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "SF750 750 W",
+   "price": 1199,
+   "list": 1259,
+   "attr": {
+    "Potência": "600 a 750 W",
+    "Certificação": "Platinum",
+    "Formato": "SFX"
+   },
+   "specs": {
+    "Potência": "750 W",
+    "Certificação": "80 Plus Platinum",
+    "Modularidade": "Full modular",
+    "Padrão": "SFX"
+   }
+  },
+  {
+   "id": "cooler-master-v850-sfx-gold",
+   "cat": "fonte",
+   "brand": "Cooler Master",
+   "name": "V850 SFX Gold",
+   "price": 1299,
+   "list": 1479,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Gold",
+    "Formato": "SFX (ATX 3.0)"
+   },
+   "specs": {
+    "Potência": "850 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "SFX (ATX 3.0)"
+   }
+  },
+  {
+   "id": "lian-li-sp850-850-w-sfx",
+   "cat": "fonte",
+   "brand": "Lian Li",
+   "name": "SP850 850 W SFX",
+   "price": 1149,
+   "list": 1469,
+   "attr": {
+    "Potência": "850 a 1000 W",
+    "Certificação": "Gold",
+    "Formato": "SFX"
+   },
+   "specs": {
+    "Potência": "850 W",
+    "Certificação": "80 Plus Gold",
+    "Modularidade": "Full modular",
+    "Padrão": "SFX"
+   }
+  },
+  {
+   "id": "supermicro-pws-504p-redundante-500-w-rac",
+   "cat": "fonte",
+   "brand": "Supermicro",
+   "name": "PWS-504P redundante 500 W (rack)",
+   "price": 1899,
+   "list": 2039,
+   "attr": {
+    "Potência": "Até 550 W",
+    "Certificação": "Platinum",
+    "Formato": "Servidor"
+   },
+   "specs": {
+    "Potência": "500 W",
+    "Certificação": "80 Plus Platinum",
+    "Padrão": "Servidor"
+   }
+  },
+  {
+   "id": "corsair-kit-cabos-sleeved-24-pin-8-pin",
+   "cat": "fonte",
+   "brand": "Corsair",
+   "name": "Kit cabos sleeved 24-pin / 8-pin",
+   "price": 249,
+   "list": 279,
+   "attr": {
+    "Formato": "Acessório"
+   },
+   "specs": {
+    "Padrão": "Acessório"
+   }
+  },
+  {
+   "id": "cablemod-adaptador-12vhpwr-nativo-para-f",
+   "cat": "fonte",
+   "brand": "CableMod",
+   "name": "Adaptador 12VHPWR nativo para fontes antigas",
+   "price": 149,
+   "list": 169,
+   "attr": {
+    "Formato": "Acessório"
+   },
+   "specs": {
+    "Padrão": "Acessório"
+   }
+  },
+  {
+   "id": "apc-nobreak-back-ups-1200-va-interativo",
+   "cat": "fonte",
+   "brand": "APC",
+   "name": "Nobreak Back-UPS 1200 VA interativo",
+   "price": 1299,
+   "list": 1439,
+   "attr": {
+    "Formato": "Acessório"
+   },
+   "specs": {
+    "Padrão": "Acessório"
+   }
+  },
+  {
+   "id": "mancer-goblin-mesh",
+   "cat": "gabinete",
+   "brand": "Mancer",
+   "name": "Goblin Mesh",
+   "price": 249,
+   "list": 279,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "ATX, mATX",
+    "Fans inclusas": "3 × 120 mm ARGB"
+   }
+  },
+  {
+   "id": "cooler-master-masterbox-q300l",
+   "cat": "gabinete",
+   "brand": "Cooler Master",
+   "name": "MasterBox Q300L",
+   "price": 299,
+   "list": 319,
+   "attr": {
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Formato": "Micro-ATX",
+    "Placas": "mATX, ITX",
+    "Fans inclusas": "1 × 120 mm"
+   }
+  },
+  {
+   "id": "deepcool-matrexx-40-mesh",
+   "cat": "gabinete",
+   "brand": "DeepCool",
+   "name": "Matrexx 40 Mesh",
+   "price": 279,
+   "list": 349,
+   "attr": {
+    "Formato": "Micro-ATX"
+   },
+   "specs": {
+    "Formato": "Micro-ATX",
+    "Placas": "mATX, ITX",
+    "Fans inclusas": "1 × 120 mm"
+   }
+  },
+  {
+   "id": "nzxt-h5-flow",
+   "cat": "gabinete",
+   "brand": "NZXT",
+   "name": "H5 Flow",
+   "price": 599,
+   "list": 639,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "ATX, mATX, ITX",
+    "Fans inclusas": "2 × 120 mm"
+   }
+  },
+  {
+   "id": "corsair-4000d-airflow",
+   "cat": "gabinete",
+   "brand": "Corsair",
+   "name": "4000D Airflow",
+   "price": 629,
+   "list": 699,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "ATX, mATX, ITX",
+    "Fans inclusas": "2 × 120 mm"
+   },
+   "hot": 1
+  },
+  {
+   "id": "lian-li-lancool-216",
+   "cat": "gabinete",
+   "brand": "Lian Li",
+   "name": "Lancool 216",
+   "price": 699,
+   "list": 899,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "E-ATX, ATX, mATX",
+    "Fans inclusas": "2 × 160 + 1 × 140 mm"
+   }
+  },
+  {
+   "id": "lian-li-o11-dynamic-evo-aquario",
+   "cat": "gabinete",
+   "brand": "Lian Li",
+   "name": "O11 Dynamic EVO (aquário)",
+   "price": 1199,
+   "list": 1459,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "E-ATX, ATX, mATX",
+    "Fans inclusas": "Não acompanha"
+   }
+  },
+  {
+   "id": "nzxt-h9-flow-aquario",
+   "cat": "gabinete",
+   "brand": "NZXT",
+   "name": "H9 Flow (aquário)",
+   "price": 1399,
+   "list": 1709,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "ATX, mATX, ITX",
+    "Fans inclusas": "4 × 120 mm"
+   }
+  },
+  {
+   "id": "phanteks-eclipse-g360a",
+   "cat": "gabinete",
+   "brand": "Phanteks",
+   "name": "Eclipse G360A",
+   "price": 649,
+   "list": 759,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "ATX, mATX, ITX",
+    "Fans inclusas": "3 × 120 mm ARGB"
+   }
+  },
+  {
+   "id": "cooler-master-masterbox-td500-mesh-v2",
+   "cat": "gabinete",
+   "brand": "Cooler Master",
+   "name": "MasterBox TD500 Mesh V2",
+   "price": 699,
+   "list": 739,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "ATX, mATX, ITX",
+    "Fans inclusas": "3 × 120 mm ARGB"
+   }
+  },
+  {
+   "id": "montech-king-95-pro-aquario-curvo",
+   "cat": "gabinete",
+   "brand": "Montech",
+   "name": "King 95 Pro (aquário curvo)",
+   "price": 899,
+   "list": 1059,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "E-ATX, ATX, mATX",
+    "Fans inclusas": "6 × 120 mm ARGB"
+   }
+  },
+  {
+   "id": "montech-air-903-max",
+   "cat": "gabinete",
+   "brand": "Montech",
+   "name": "AIR 903 Max",
+   "price": 469,
+   "list": 569,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "E-ATX, ATX, mATX",
+    "Fans inclusas": "4 × 140 mm ARGB"
+   }
+  },
+  {
+   "id": "fractal-design-torrent",
+   "cat": "gabinete",
+   "brand": "Fractal Design",
+   "name": "Torrent",
+   "price": 1599,
+   "list": 1949,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "E-ATX, ATX, mATX",
+    "Fans inclusas": "2 × 180 + 3 × 140 mm"
+   }
+  },
+  {
+   "id": "cooler-master-nr200p",
+   "cat": "gabinete",
+   "brand": "Cooler Master",
+   "name": "NR200P",
+   "price": 749,
+   "list": 879,
+   "attr": {
+    "Formato": "Mini-ITX"
+   },
+   "specs": {
+    "Formato": "Mini-ITX",
+    "Placas": "ITX",
+    "Fans inclusas": "2 × 120 mm"
+   }
+  },
+  {
+   "id": "lian-li-a4-h2o",
+   "cat": "gabinete",
+   "brand": "Lian Li",
+   "name": "A4-H2O",
+   "price": 999,
+   "list": 1219,
+   "attr": {
+    "Formato": "Mini-ITX"
+   },
+   "specs": {
+    "Formato": "Mini-ITX",
+    "Placas": "ITX",
+    "Fans inclusas": "Não acompanha"
+   }
+  },
+  {
+   "id": "corsair-7000d-airflow",
+   "cat": "gabinete",
+   "brand": "Corsair",
+   "name": "7000D Airflow",
+   "price": 1999,
+   "list": 2219,
+   "attr": {
+    "Formato": "Full tower"
+   },
+   "specs": {
+    "Formato": "Full tower",
+    "Placas": "E-ATX, ATX, mATX",
+    "Fans inclusas": "3 × 140 mm"
+   }
+  },
+  {
+   "id": "asus-rog-strix-helios",
+   "cat": "gabinete",
+   "brand": "ASUS",
+   "name": "ROG Strix Helios",
+   "price": 1999,
+   "list": 2169,
+   "attr": {
+    "Formato": "Mid-tower"
+   },
+   "specs": {
+    "Formato": "Mid-tower",
+    "Placas": "E-ATX, ATX, mATX",
+    "Fans inclusas": "4 × 140 mm"
+   }
+  },
+  {
+   "id": "deepcool-ag400-gammaxx",
+   "cat": "refrigeracao",
+   "brand": "DeepCool",
+   "name": "AG400 (Gammaxx)",
+   "price": 149,
+   "list": 189,
+   "attr": {
+    "Tipo": "Air cooler"
+   },
+   "specs": {
+    "Tipo": "Air cooler",
+    "Altura": "150 mm",
+    "TDP suportado": "220 W"
+   }
+  },
+  {
+   "id": "cooler-master-hyper-212-black-edition",
+   "cat": "refrigeracao",
+   "brand": "Cooler Master",
+   "name": "Hyper 212 Black Edition",
+   "price": 249,
+   "list": 269,
+   "attr": {
+    "Tipo": "Air cooler"
+   },
+   "specs": {
+    "Tipo": "Air cooler",
+    "Altura": "159 mm",
+    "TDP suportado": "150 W"
+   }
+  },
+  {
+   "id": "thermalright-assassin-x-120-refined-se",
+   "cat": "refrigeracao",
+   "brand": "Thermalright",
+   "name": "Assassin X 120 Refined SE",
+   "price": 119,
+   "list": 149,
+   "attr": {
+    "Tipo": "Air cooler"
+   },
+   "specs": {
+    "Tipo": "Air cooler",
+    "Altura": "148 mm",
+    "TDP suportado": "220 W"
+   }
+  },
+  {
+   "id": "deepcool-ak400-digital",
+   "cat": "refrigeracao",
+   "brand": "DeepCool",
+   "name": "AK400 Digital",
+   "price": 299,
+   "list": 359,
+   "attr": {
+    "Tipo": "Air cooler"
+   },
+   "specs": {
+    "Tipo": "Air cooler",
+    "Altura": "155 mm",
+    "Extra": "Display de temperatura"
+   }
+  },
+  {
+   "id": "deepcool-ak620",
+   "cat": "refrigeracao",
+   "brand": "DeepCool",
+   "name": "AK620",
+   "price": 399,
+   "list": 419,
+   "attr": {
+    "Tipo": "Air cooler"
+   },
+   "specs": {
+    "Tipo": "Air cooler",
+    "Altura": "160 mm",
+    "TDP suportado": "260 W (torre dupla)"
+   },
+   "hot": 1
+  },
+  {
+   "id": "thermalright-peerless-assassin-120-se",
+   "cat": "refrigeracao",
+   "brand": "Thermalright",
+   "name": "Peerless Assassin 120 SE",
+   "price": 229,
+   "list": 289,
+   "attr": {
+    "Tipo": "Air cooler"
+   },
+   "specs": {
+    "Tipo": "Air cooler",
+    "Altura": "155 mm",
+    "TDP suportado": "245 W (torre dupla)"
+   },
+   "hot": 1
+  },
+  {
+   "id": "noctua-nh-d15",
+   "cat": "refrigeracao",
+   "brand": "Noctua",
+   "name": "NH-D15",
+   "price": 899,
+   "list": 1019,
+   "attr": {
+    "Tipo": "Air cooler"
+   },
+   "specs": {
+    "Tipo": "Air cooler",
+    "Altura": "165 mm",
+    "TDP suportado": "250 W (torre dupla)"
+   }
+  },
+  {
+   "id": "cooler-master-masterliquid-lite-120",
+   "cat": "refrigeracao",
+   "brand": "Cooler Master",
+   "name": "MasterLiquid Lite 120",
+   "price": 299,
+   "list": 369,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "120 mm",
+    "Iluminação": "Sem RGB"
+   }
+  },
+  {
+   "id": "deepcool-le520",
+   "cat": "refrigeracao",
+   "brand": "DeepCool",
+   "name": "LE520",
+   "price": 349,
+   "list": 389,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "240 mm",
+    "Iluminação": "ARGB"
+   }
+  },
+  {
+   "id": "cooler-master-masterliquid-ml240l-v2-rgb",
+   "cat": "refrigeracao",
+   "brand": "Cooler Master",
+   "name": "MasterLiquid ML240L V2 RGB",
+   "price": 399,
+   "list": 449,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "240 mm",
+    "Iluminação": "RGB"
+   }
+  },
+  {
+   "id": "corsair-h100-rgb",
+   "cat": "refrigeracao",
+   "brand": "Corsair",
+   "name": "H100 RGB",
+   "price": 599,
+   "list": 679,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "240 mm",
+    "Iluminação": "RGB"
+   }
+  },
+  {
+   "id": "nzxt-kraken-x63",
+   "cat": "refrigeracao",
+   "brand": "NZXT",
+   "name": "Kraken X63",
+   "price": 899,
+   "list": 969,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "280 mm",
+    "Iluminação": "RGB no bloco"
+   }
+  },
+  {
+   "id": "deepcool-ls720-se",
+   "cat": "refrigeracao",
+   "brand": "DeepCool",
+   "name": "LS720 SE",
+   "price": 599,
+   "list": 669,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "360 mm",
+    "Iluminação": "ARGB"
+   }
+  },
+  {
+   "id": "corsair-icue-h150i-elite-capellix-xt",
+   "cat": "refrigeracao",
+   "brand": "Corsair",
+   "name": "iCUE H150i Elite Capellix XT",
+   "price": 1199,
+   "list": 1539,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "360 mm",
+    "Iluminação": "RGB Capellix"
+   }
+  },
+  {
+   "id": "nzxt-kraken-elite-360-tela-lcd",
+   "cat": "refrigeracao",
+   "brand": "NZXT",
+   "name": "Kraken Elite 360 (tela LCD)",
+   "price": 1799,
+   "list": 2309,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "360 mm",
+    "Extra": "Tela LCD 2,36\" personalizável"
+   }
+  },
+  {
+   "id": "asus-rog-ryujin-iii-360-argb",
+   "cat": "refrigeracao",
+   "brand": "ASUS",
+   "name": "ROG Ryujin III 360 ARGB",
+   "price": 2299,
+   "list": 2549,
+   "attr": {
+    "Tipo": "Water cooler"
+   },
+   "specs": {
+    "Tipo": "Water cooler",
+    "Radiador": "360 mm",
+    "Extra": "Tela LCD 3,5\""
+   }
+  },
+  {
+   "id": "arctic-p12-pwm-120-mm",
+   "cat": "refrigeracao",
+   "brand": "Arctic",
+   "name": "P12 PWM 120 mm",
+   "price": 49,
+   "list": 59,
+   "attr": {
+    "Tipo": "Fans"
+   },
+   "specs": {
+    "Tipo": "Fans",
+    "Quantidade": "1 fan",
+    "Ruído": "0,3 sone, silenciosa"
+   }
+  },
+  {
+   "id": "deepcool-fc120-argb-kit-com-3",
+   "cat": "refrigeracao",
+   "brand": "DeepCool",
+   "name": "FC120 ARGB kit com 3",
+   "price": 199,
+   "list": 229,
+   "attr": {
+    "Tipo": "Fans"
+   },
+   "specs": {
+    "Tipo": "Fans",
+    "Quantidade": "3 × 120 mm",
+    "Iluminação": "ARGB"
+   }
+  },
+  {
+   "id": "cooler-master-sickleflow-120-argb-kit-co",
+   "cat": "refrigeracao",
+   "brand": "Cooler Master",
+   "name": "SickleFlow 120 ARGB kit com 3",
+   "price": 189,
+   "list": 219,
+   "attr": {
+    "Tipo": "Fans"
+   },
+   "specs": {
+    "Tipo": "Fans",
+    "Quantidade": "3 × 120 mm",
+    "Iluminação": "ARGB"
+   }
+  },
+  {
+   "id": "lian-li-uni-fan-sl-inf-120-kit-com-3",
+   "cat": "refrigeracao",
+   "brand": "Lian Li",
+   "name": "UNI Fan SL-INF 120 kit com 3",
+   "price": 699,
+   "list": 899,
+   "attr": {
+    "Tipo": "Fans"
+   },
+   "specs": {
+    "Tipo": "Fans",
+    "Quantidade": "3 × 120 mm",
+    "Extra": "Encaixe modular sem cabos"
+   }
+  },
+  {
+   "id": "arctic-mx-6-4-g",
+   "cat": "refrigeracao",
+   "brand": "Arctic",
+   "name": "MX-6 4 g",
+   "price": 59,
+   "list": 79,
+   "attr": {
+    "Tipo": "Pasta térmica"
+   },
+   "specs": {
+    "Tipo": "Pasta térmica",
+    "Conteúdo": "4 g",
+    "Condutividade": "Alta, não condutiva"
+   }
+  },
+  {
+   "id": "thermal-grizzly-kryonaut-1-g",
+   "cat": "refrigeracao",
+   "brand": "Thermal Grizzly",
+   "name": "Kryonaut 1 g",
+   "price": 79,
+   "list": 89,
+   "attr": {
+    "Tipo": "Pasta térmica"
+   },
+   "specs": {
+    "Tipo": "Pasta térmica",
+    "Conteúdo": "1 g",
+    "Condutividade": "12,5 W/mK"
+   }
+  },
+  {
+   "id": "thermalright-odyssey-thermal-pads-kit-gp",
+   "cat": "refrigeracao",
+   "brand": "Thermalright",
+   "name": "Odyssey thermal pads (kit GPU/SSD)",
+   "price": 99,
+   "list": 119,
+   "attr": {
+    "Tipo": "Pasta térmica"
+   },
+   "specs": {
+    "Tipo": "Pasta térmica",
+    "Conteúdo": "Kit 0,5 a 2 mm",
+    "Condutividade": "12,8 W/mK"
+   }
+  },
+  {
+   "id": "cooler-master-controladora-argb-com-cont",
+   "cat": "refrigeracao",
+   "brand": "Cooler Master",
+   "name": "Controladora ARGB com controle remoto",
+   "price": 99,
+   "list": 109,
+   "attr": {
+    "Tipo": "Acessório"
+   },
+   "specs": {
+    "Tipo": "Acessório",
+    "Canais": "até 6 fans",
+    "Controle": "Remoto e USB"
+   }
+  },
+  {
+   "id": "samsung-essential-t350-22-full-hd-75-hz-",
+   "cat": "monitor",
+   "brand": "Samsung",
+   "name": "Essential T350 22\" Full HD 75 Hz IPS",
+   "price": 599,
+   "list": 639,
+   "attr": {
+    "Tamanho": "21,5\"",
+    "Taxa": "75 Hz",
+    "Resolução": "Full HD"
+   },
+   "specs": {
+    "Tamanho": "21,5\"",
+    "Resolução": "Full HD",
+    "Painel": "IPS",
+    "Taxa": "75 Hz"
+   }
+  },
+  {
+   "id": "lg-ultragear-24gn60r-23-8-full-hd-144-hz",
+   "cat": "monitor",
+   "brand": "LG",
+   "name": "UltraGear 24GN60R 23,8\" Full HD 144 Hz",
+   "price": 899,
+   "list": 999,
+   "attr": {
+    "Tamanho": "24\"",
+    "Taxa": "144 Hz",
+    "Resolução": "Full HD"
+   },
+   "specs": {
+    "Tamanho": "24\"",
+    "Resolução": "Full HD",
+    "Painel": "IPS",
+    "Taxa": "144 Hz"
+   }
+  },
+  {
+   "id": "aoc-hero-24g4-23-8-full-hd-180-hz",
+   "cat": "monitor",
+   "brand": "AOC",
+   "name": "Hero 24G4 23,8\" Full HD 180 Hz",
+   "price": 949,
+   "list": 999,
+   "attr": {
+    "Tamanho": "24\"",
+    "Taxa": "180 Hz",
+    "Resolução": "Full HD"
+   },
+   "specs": {
+    "Tamanho": "24\"",
+    "Resolução": "Full HD",
+    "Painel": "IPS",
+    "Taxa": "180 Hz"
+   }
+  },
+  {
+   "id": "dell-p2425h-24-full-hd-100-hz",
+   "cat": "monitor",
+   "brand": "Dell",
+   "name": "P2425H 24\" Full HD 100 Hz",
+   "price": 1199,
+   "list": 1499,
+   "attr": {
+    "Tamanho": "24\"",
+    "Taxa": "100 Hz",
+    "Resolução": "Full HD"
+   },
+   "specs": {
+    "Tamanho": "24\"",
+    "Resolução": "Full HD",
+    "Painel": "IPS",
+    "Taxa": "100 Hz"
+   }
+  },
+  {
+   "id": "lg-ultragear-27gs75q-27-qhd-180-hz",
+   "cat": "monitor",
+   "brand": "LG",
+   "name": "UltraGear 27GS75Q 27\" QHD 180 Hz",
+   "price": 1624,
+   "list": 2499,
+   "attr": {
+    "Tamanho": "27\"",
+    "Taxa": "180 Hz",
+    "Resolução": "QHD"
+   },
+   "specs": {
+    "Tamanho": "27\"",
+    "Resolução": "QHD",
+    "Painel": "IPS",
+    "Taxa": "180 Hz"
+   },
+   "hot": 1,
+   "esq": 1
+  },
+  {
+   "id": "gigabyte-aorus-fi27q-x-27-qhd-240-hz",
+   "cat": "monitor",
+   "brand": "Gigabyte",
+   "name": "AORUS FI27Q-X 27\" QHD 240 Hz",
+   "price": 2999,
+   "list": 3219,
+   "attr": {
+    "Tamanho": "27\"",
+    "Taxa": "240 Hz",
+    "Resolução": "QHD"
+   },
+   "specs": {
+    "Tamanho": "27\"",
+    "Resolução": "QHD",
+    "Painel": "Fast IPS",
+    "Taxa": "240 Hz"
+   }
+  },
+  {
+   "id": "lg-ultragear-27gs95qe-27-oled-240-hz",
+   "cat": "monitor",
+   "brand": "LG",
+   "name": "UltraGear 27GS95QE 27\" OLED 240 Hz",
+   "price": 5999,
+   "list": 7319,
+   "attr": {
+    "Tamanho": "27\"",
+    "Taxa": "240 Hz",
+    "Resolução": "QHD"
+   },
+   "specs": {
+    "Tamanho": "27\"",
+    "Resolução": "QHD",
+    "Painel": "OLED",
+    "Taxa": "240 Hz"
+   }
+  },
+  {
+   "id": "dell-ultrasharp-u2723qe-27-4k",
+   "cat": "monitor",
+   "brand": "Dell",
+   "name": "UltraSharp U2723QE 27\" 4K",
+   "price": 3999,
+   "list": 4539,
+   "attr": {
+    "Tamanho": "27\"",
+    "Taxa": "60 Hz",
+    "Resolução": "4K UHD"
+   },
+   "specs": {
+    "Tamanho": "27\"",
+    "Resolução": "4K UHD",
+    "Painel": "IPS Black",
+    "Taxa": "60 Hz"
+   }
+  },
+  {
+   "id": "lg-ultrawide-29wq600-29-100-hz",
+   "cat": "monitor",
+   "brand": "LG",
+   "name": "UltraWide 29WQ600 29\" 100 Hz",
+   "price": 1299,
+   "list": 1579,
+   "attr": {
+    "Tamanho": "29\"",
+    "Taxa": "100 Hz",
+    "Resolução": "UW Full HD"
+   },
+   "specs": {
+    "Tamanho": "29\"",
+    "Resolução": "UW Full HD",
+    "Painel": "IPS",
+    "Taxa": "100 Hz"
+   }
+  },
+  {
+   "id": "samsung-odyssey-g5-32-curvo-qhd-165-hz",
+   "cat": "monitor",
+   "brand": "Samsung",
+   "name": "Odyssey G5 32\" curvo QHD 165 Hz",
+   "price": 1999,
+   "list": 2219,
+   "attr": {
+    "Tamanho": "32\"",
+    "Taxa": "165 Hz",
+    "Resolução": "QHD"
+   },
+   "specs": {
+    "Tamanho": "32\"",
+    "Resolução": "QHD",
+    "Painel": "VA",
+    "Taxa": "165 Hz"
+   }
+  },
+  {
+   "id": "aoc-cu34g2x-34-curvo-wqhd-144-hz",
+   "cat": "monitor",
+   "brand": "AOC",
+   "name": "CU34G2X 34\" curvo WQHD 144 Hz",
+   "price": 2299,
+   "list": 2469,
+   "attr": {
+    "Tamanho": "34\"",
+    "Taxa": "144 Hz",
+    "Resolução": "UW QHD"
+   },
+   "specs": {
+    "Tamanho": "34\"",
+    "Resolução": "UW QHD",
+    "Painel": "VA",
+    "Taxa": "144 Hz"
+   }
+  },
+  {
+   "id": "elg-suporte-articulado-f80n-para-1-ou-2-",
+   "cat": "monitor",
+   "brand": "ELG",
+   "name": "Suporte articulado F80N para 1 ou 2 monitores (VESA)",
+   "price": 199,
+   "list": 219,
+   "attr": {
+    "Resolução": "Acessório"
+   },
+   "specs": {
+    "Tipo": "Suporte articulado",
+    "Padrão": "VESA 75/100",
+    "Monitores": "1 ou 2, até 32\""
+   }
+  },
+  {
+   "id": "asus-tuf-gaming-f16-rtx-4060",
+   "cat": "notebook",
+   "brand": "ASUS",
+   "name": "TUF Gaming F16 · RTX 4060",
+   "price": 5999,
+   "list": 11999,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i7-13650HX",
+    "Placa de vídeo": "RTX 4060 8 GB",
+    "Memória": "16 GB DDR5",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "16\" FHD+ 165 Hz"
+   },
+   "hot": 1,
+   "esq": 1
+  },
+  {
+   "id": "lenovo-ideapad-gaming-3-rtx-3050",
+   "cat": "notebook",
+   "brand": "Lenovo",
+   "name": "IdeaPad Gaming 3 · RTX 3050",
+   "price": 4299,
+   "list": 4619,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Ryzen 5 5600H",
+    "Placa de vídeo": "RTX 3050 4 GB",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 120 Hz"
+   }
+  },
+  {
+   "id": "acer-nitro-5-rtx-3050",
+   "cat": "notebook",
+   "brand": "Acer",
+   "name": "Nitro 5 · RTX 3050",
+   "price": 4499,
+   "list": 5619,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i5-12450H",
+    "Placa de vídeo": "RTX 3050 4 GB",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 144 Hz"
+   }
+  },
+  {
+   "id": "acer-nitro-v15-rtx-4050",
+   "cat": "notebook",
+   "brand": "Acer",
+   "name": "Nitro V15 · RTX 4050",
+   "price": 5499,
+   "list": 6249,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i5-13420H",
+    "Placa de vídeo": "RTX 4050 6 GB",
+    "Memória": "8 GB DDR5",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 144 Hz"
+   },
+   "hot": 1
+  },
+  {
+   "id": "lenovo-loq-15-rtx-4050",
+   "cat": "notebook",
+   "brand": "Lenovo",
+   "name": "LOQ 15 · RTX 4050",
+   "price": 5299,
+   "list": 6459,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i5-12450HX",
+    "Placa de vídeo": "RTX 4050 6 GB",
+    "Memória": "8 GB DDR5",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 144 Hz"
+   }
+  },
+  {
+   "id": "asus-tuf-gaming-a15-rtx-4050",
+   "cat": "notebook",
+   "brand": "ASUS",
+   "name": "TUF Gaming A15 · RTX 4050",
+   "price": 5499,
+   "list": 6109,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Ryzen 7 7435HS",
+    "Placa de vídeo": "RTX 4050 6 GB",
+    "Memória": "16 GB DDR5",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 144 Hz"
+   }
+  },
+  {
+   "id": "dell-g15-rtx-4050",
+   "cat": "notebook",
+   "brand": "Dell",
+   "name": "G15 · RTX 4050",
+   "price": 5999,
+   "list": 6519,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i5-13450HX",
+    "Placa de vídeo": "RTX 4050 6 GB",
+    "Memória": "16 GB DDR5",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 120 Hz"
+   }
+  },
+  {
+   "id": "gigabyte-g5-rtx-4060",
+   "cat": "notebook",
+   "brand": "Gigabyte",
+   "name": "G5 · RTX 4060",
+   "price": 5799,
+   "list": 6589,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i5-12500H",
+    "Placa de vídeo": "RTX 4060 8 GB",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 144 Hz"
+   }
+  },
+  {
+   "id": "msi-thin-gf63-rtx-4050",
+   "cat": "notebook",
+   "brand": "MSI",
+   "name": "Thin GF63 · RTX 4050",
+   "price": 4999,
+   "list": 5259,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i5-12450H",
+    "Placa de vídeo": "RTX 4050 6 GB",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 144 Hz"
+   }
+  },
+  {
+   "id": "acer-predator-helios-16-rtx-4070",
+   "cat": "notebook",
+   "brand": "Acer",
+   "name": "Predator Helios 16 · RTX 4070",
+   "price": 10999,
+   "list": 12499,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i7-14700HX",
+    "Placa de vídeo": "RTX 4070 8 GB",
+    "Memória": "16 GB DDR5",
+    "Armazenamento": "1 TB NVMe",
+    "Tela": "16\" QHD+ 240 Hz"
+   }
+  },
+  {
+   "id": "asus-rog-strix-g16-rtx-4070",
+   "cat": "notebook",
+   "brand": "ASUS",
+   "name": "ROG Strix G16 · RTX 4070",
+   "price": 12999,
+   "list": 13979,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i9-14900HX",
+    "Placa de vídeo": "RTX 4070 8 GB",
+    "Memória": "16 GB DDR5",
+    "Armazenamento": "1 TB NVMe",
+    "Tela": "16\" QHD+ 240 Hz"
+   }
+  },
+  {
+   "id": "lenovo-legion-pro-5-rtx-4070",
+   "cat": "notebook",
+   "brand": "Lenovo",
+   "name": "Legion Pro 5 · RTX 4070",
+   "price": 12499,
+   "list": 13439,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i9-14900HX",
+    "Placa de vídeo": "RTX 4070 8 GB",
+    "Memória": "32 GB DDR5",
+    "Armazenamento": "1 TB NVMe",
+    "Tela": "16\" WQXGA 240 Hz"
+   }
+  },
+  {
+   "id": "razer-blade-16-rtx-4080",
+   "cat": "notebook",
+   "brand": "Razer",
+   "name": "Blade 16 · RTX 4080",
+   "price": 24999,
+   "list": 27779,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i9-14900HX",
+    "Placa de vídeo": "RTX 4080 12 GB",
+    "Memória": "32 GB DDR5",
+    "Armazenamento": "1 TB NVMe",
+    "Tela": "16\" OLED 240 Hz"
+   }
+  },
+  {
+   "id": "dell-alienware-m16-r2-rtx-4070",
+   "cat": "notebook",
+   "brand": "Dell",
+   "name": "Alienware m16 R2 · RTX 4070",
+   "price": 16999,
+   "list": 19319,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core Ultra 9 185H",
+    "Placa de vídeo": "RTX 4070 8 GB",
+    "Memória": "32 GB DDR5",
+    "Armazenamento": "1 TB NVMe",
+    "Tela": "16\" QHD+ 240 Hz"
+   }
+  },
+  {
+   "id": "msi-raider-ge78-hx-rtx-4080",
+   "cat": "notebook",
+   "brand": "MSI",
+   "name": "Raider GE78 HX · RTX 4080",
+   "price": 21999,
+   "list": 28199,
+   "attr": {
+    "Uso": "Gamer"
+   },
+   "specs": {
+    "Processador": "Core i9-14900HX",
+    "Placa de vídeo": "RTX 4080 12 GB",
+    "Memória": "32 GB DDR5",
+    "Armazenamento": "2 TB NVMe",
+    "Tela": "17\" QHD+ 240 Hz"
+   }
+  },
+  {
+   "id": "asus-vivobook-go-15",
+   "cat": "notebook",
+   "brand": "ASUS",
+   "name": "Vivobook Go 15",
+   "price": 2499,
+   "list": 2939,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Core i3-N305",
+    "Placa de vídeo": "Intel UHD",
+    "Memória": "8 GB",
+    "Armazenamento": "256 GB SSD",
+    "Tela": "15,6\" FHD"
+   }
+  },
+  {
+   "id": "vaio-vaio-fe16",
+   "cat": "notebook",
+   "brand": "VAIO",
+   "name": "VAIO FE16",
+   "price": 3299,
+   "list": 3589,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Core i5-1235U",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "16\" FHD"
+   }
+  },
+  {
+   "id": "lenovo-ideapad-1-15",
+   "cat": "notebook",
+   "brand": "Lenovo",
+   "name": "IdeaPad 1 15",
+   "price": 2799,
+   "list": 3499,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Ryzen 5 7520U",
+    "Placa de vídeo": "Radeon 610M",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD"
+   }
+  },
+  {
+   "id": "lenovo-ideapad-slim-3-15",
+   "cat": "notebook",
+   "brand": "Lenovo",
+   "name": "IdeaPad Slim 3 15\"",
+   "price": 3599,
+   "list": 4389,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Ryzen 7 7730U",
+    "Placa de vídeo": "Radeon",
+    "Memória": "16 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD IPS"
+   },
+   "hot": 1
+  },
+  {
+   "id": "samsung-galaxy-book2",
+   "cat": "notebook",
+   "brand": "Samsung",
+   "name": "Galaxy Book2",
+   "price": 3299,
+   "list": 3669,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Core i5-1235U",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "8 GB",
+    "Armazenamento": "256 GB NVMe",
+    "Tela": "15,6\" FHD"
+   }
+  },
+  {
+   "id": "samsung-galaxy-book4-pro-14-amoled",
+   "cat": "notebook",
+   "brand": "Samsung",
+   "name": "Galaxy Book4 Pro 14\" AMOLED",
+   "price": 7999,
+   "list": 8689,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Core Ultra 7 155H",
+    "Placa de vídeo": "Intel Arc",
+    "Memória": "16 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "14\" AMOLED 3K 120 Hz"
+   }
+  },
+  {
+   "id": "asus-vivobook-15-oled",
+   "cat": "notebook",
+   "brand": "ASUS",
+   "name": "Vivobook 15 OLED",
+   "price": 3999,
+   "list": 4999,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Core i5-1335U",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" OLED FHD"
+   }
+  },
+  {
+   "id": "acer-aspire-5",
+   "cat": "notebook",
+   "brand": "Acer",
+   "name": "Aspire 5",
+   "price": 3699,
+   "list": 4619,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Core i5-1335U",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD IPS"
+   }
+  },
+  {
+   "id": "dell-inspiron-15-3530",
+   "cat": "notebook",
+   "brand": "Dell",
+   "name": "Inspiron 15 3530",
+   "price": 3499,
+   "list": 4269,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Core i5-1334U",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD 120 Hz"
+   }
+  },
+  {
+   "id": "lenovo-yoga-slim-6-14",
+   "cat": "notebook",
+   "brand": "Lenovo",
+   "name": "Yoga Slim 6 14\"",
+   "price": 5499,
+   "list": 6709,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Core i5-1340P",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "16 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "14\" WUXGA OLED"
+   }
+  },
+  {
+   "id": "asus-zenbook-14-oled",
+   "cat": "notebook",
+   "brand": "ASUS",
+   "name": "Zenbook 14 OLED",
+   "price": 7499,
+   "list": 8149,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Core Ultra 7 155H",
+    "Placa de vídeo": "Intel Arc",
+    "Memória": "16 GB",
+    "Armazenamento": "1 TB NVMe",
+    "Tela": "14\" OLED 3K 120 Hz"
+   }
+  },
+  {
+   "id": "hp-pavilion-x360-14-2-em-1",
+   "cat": "notebook",
+   "brand": "HP",
+   "name": "Pavilion x360 14 (2 em 1)",
+   "price": 4999,
+   "list": 5379,
+   "attr": {
+    "Uso": "Dia a dia"
+   },
+   "specs": {
+    "Processador": "Core i5-1335U",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "8 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "14\" FHD touch"
+   }
+  },
+  {
+   "id": "dell-latitude-3540",
+   "cat": "notebook",
+   "brand": "Dell",
+   "name": "Latitude 3540",
+   "price": 5499,
+   "list": 6469,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Core i5-1335U",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "16 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "15,6\" FHD"
+   }
+  },
+  {
+   "id": "lenovo-thinkpad-e14-gen-5",
+   "cat": "notebook",
+   "brand": "Lenovo",
+   "name": "ThinkPad E14 Gen 5",
+   "price": 5299,
+   "list": 5759,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Core i5-1335U",
+    "Placa de vídeo": "Intel Iris Xe",
+    "Memória": "16 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "14\" WUXGA"
+   }
+  },
+  {
+   "id": "lenovo-thinkpad-t14-gen-5",
+   "cat": "notebook",
+   "brand": "Lenovo",
+   "name": "ThinkPad T14 Gen 5",
+   "price": 8999,
+   "list": 10229,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Core Ultra 5 135U",
+    "Placa de vídeo": "Intel Graphics",
+    "Memória": "16 GB",
+    "Armazenamento": "512 GB NVMe",
+    "Tela": "14\" WUXGA"
+   }
+  },
+  {
+   "id": "apple-macbook-air-13-m1",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Air 13\" M1",
+   "price": 5999,
+   "list": 7059,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Apple M1 8 núcleos",
+    "Placa de vídeo": "GPU 7 núcleos",
+    "Memória": "8 GB",
+    "Armazenamento": "256 GB SSD",
+    "Tela": "13,3\" Retina"
+   }
+  },
+  {
+   "id": "apple-macbook-air-13-m2",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Air 13\" M2",
+   "price": 7499,
+   "list": 7889,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Apple M2 8 núcleos",
+    "Placa de vídeo": "GPU 8 núcleos",
+    "Memória": "16 GB",
+    "Armazenamento": "256 GB SSD",
+    "Tela": "13,6\" Liquid Retina"
+   }
+  },
+  {
+   "id": "apple-macbook-air-15-m2",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Air 15\" M2",
+   "price": 8999,
+   "list": 9469,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Apple M2 8 núcleos",
+    "Placa de vídeo": "GPU 10 núcleos",
+    "Memória": "8 GB",
+    "Armazenamento": "256 GB SSD",
+    "Tela": "15,3\" Liquid Retina"
+   }
+  },
+  {
+   "id": "apple-macbook-air-13-m3",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Air 13\" M3",
+   "price": 8499,
+   "list": 9439,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Apple M3 8 núcleos",
+    "Placa de vídeo": "GPU 8 núcleos",
+    "Memória": "16 GB",
+    "Armazenamento": "256 GB SSD",
+    "Tela": "13,6\" Liquid Retina"
+   }
+  },
+  {
+   "id": "apple-macbook-air-15-m3",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Air 15\" M3",
+   "price": 9999,
+   "list": 12819,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Apple M3 8 núcleos",
+    "Placa de vídeo": "GPU 10 núcleos",
+    "Memória": "16 GB",
+    "Armazenamento": "256 GB SSD",
+    "Tela": "15,3\" Liquid Retina"
+   }
+  },
+  {
+   "id": "apple-macbook-air-13-m4",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Air 13\" M4",
+   "price": 9499,
+   "list": 12179,
+   "attr": {
+    "Uso": "Trabalho"
+   },
+   "specs": {
+    "Processador": "Apple M4 10 núcleos",
+    "Placa de vídeo": "GPU 8 núcleos",
+    "Memória": "16 GB",
+    "Armazenamento": "256 GB SSD",
+    "Tela": "13,6\" Liquid Retina"
+   }
+  },
+  {
+   "id": "apple-macbook-pro-14-m4-pro",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Pro 14\" M4 Pro",
+   "price": 17999,
+   "list": 19999,
+   "attr": {
+    "Uso": "Criação"
+   },
+   "specs": {
+    "Processador": "Apple M4 Pro 12 núcleos",
+    "Placa de vídeo": "GPU 16 núcleos",
+    "Memória": "24 GB",
+    "Armazenamento": "512 GB SSD",
+    "Tela": "14,2\" Liquid Retina XDR"
+   }
+  },
+  {
+   "id": "apple-macbook-pro-14-m4-max",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Pro 14\" M4 Max",
+   "price": 29999,
+   "list": 31579,
+   "attr": {
+    "Uso": "Criação"
+   },
+   "specs": {
+    "Processador": "Apple M4 Max 14 núcleos",
+    "Placa de vídeo": "GPU 32 núcleos",
+    "Memória": "36 GB",
+    "Armazenamento": "1 TB SSD",
+    "Tela": "14,2\" Liquid Retina XDR"
+   }
+  },
+  {
+   "id": "apple-macbook-pro-16-m4-pro",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Pro 16\" M4 Pro",
+   "price": 23999,
+   "list": 27269,
+   "attr": {
+    "Uso": "Criação"
+   },
+   "specs": {
+    "Processador": "Apple M4 Pro 14 núcleos",
+    "Placa de vídeo": "GPU 20 núcleos",
+    "Memória": "24 GB",
+    "Armazenamento": "512 GB SSD",
+    "Tela": "16,2\" Liquid Retina XDR"
+   }
+  },
+  {
+   "id": "apple-macbook-pro-16-m4-max",
+   "cat": "notebook",
+   "brand": "Apple",
+   "name": "MacBook Pro 16\" M4 Max",
+   "price": 34999,
+   "list": 36839,
+   "attr": {
+    "Uso": "Criação"
+   },
+   "specs": {
+    "Processador": "Apple M4 Max 16 núcleos",
+    "Placa de vídeo": "GPU 40 núcleos",
+    "Memória": "48 GB",
+    "Armazenamento": "1 TB SSD",
+    "Tela": "16,2\" Liquid Retina XDR"
+   }
+  },
+  {
+   "id": "asus-proart-studiobook-16-oled",
+   "cat": "notebook",
+   "brand": "ASUS",
+   "name": "ProArt StudioBook 16 OLED",
+   "price": 21999,
+   "list": 25879,
+   "attr": {
+    "Uso": "Criação"
+   },
+   "specs": {
+    "Processador": "Core i9-13980HX",
+    "Placa de vídeo": "RTX 3000 Ada 8 GB",
+    "Memória": "32 GB",
+    "Armazenamento": "1 TB NVMe",
+    "Tela": "16\" OLED 3,2K + dial físico"
+   }
+  },
+  {
+   "id": "microsoft-surface-laptop-studio-2",
+   "cat": "notebook",
+   "brand": "Microsoft",
+   "name": "Surface Laptop Studio 2",
+   "price": 18999,
+   "list": 19999,
+   "attr": {
+    "Uso": "Criação"
+   },
+   "specs": {
+    "Processador": "Core i7-13700H",
+    "Placa de vídeo": "RTX 4050 6 GB",
+    "Memória": "16 GB",
+    "Armazenamento": "512 GB SSD",
+    "Tela": "14,4\" touch articulada 120 Hz"
+   }
+  },
+  {
+   "id": "redragon-centrophorus-kit-teclado-mouse",
+   "cat": "teclado",
+   "brand": "Redragon",
+   "name": "Centrophorus kit teclado + mouse",
+   "price": 149,
+   "list": 179,
+   "attr": {
+    "Tipo": "Membrana",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Membrana",
+    "Conexão": "Com fio",
+    "Layout": "ABNT2",
+    "Extra": "Mouse incluso"
+   }
+  },
+  {
+   "id": "redragon-kumara-k552-abnt2",
+   "cat": "teclado",
+   "brand": "Redragon",
+   "name": "Kumara K552 ABNT2",
+   "price": 179,
+   "list": 299,
+   "attr": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio",
+    "Switch": "Outemu Red ou Blue",
+    "Formato": "TKL, RGB"
+   },
+   "hot": 1,
+   "esq": 1
+  },
+  {
+   "id": "hyperx-alloy-origins-core",
+   "cat": "teclado",
+   "brand": "HyperX",
+   "name": "Alloy Origins Core",
+   "price": 399,
+   "list": 599,
+   "attr": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio",
+    "Switch": "HyperX Red",
+    "Formato": "TKL, alumínio"
+   },
+   "esq": 1
+  },
+  {
+   "id": "keychron-k2-v2-75-wireless",
+   "cat": "teclado",
+   "brand": "Keychron",
+   "name": "K2 V2 75% Wireless",
+   "price": 629,
+   "list": 899,
+   "attr": {
+    "Tipo": "Mecânico",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Tipo": "Mecânico",
+    "Conexão": "Sem fio",
+    "Switch": "Gateron Brown, hot-swap",
+    "Formato": "75%, Bluetooth/USB-C"
+   },
+   "esq": 1
+  },
+  {
+   "id": "royal-kludge-rk61-60",
+   "cat": "teclado",
+   "brand": "Royal Kludge",
+   "name": "RK61 60%",
+   "price": 299,
+   "list": 499,
+   "attr": {
+    "Tipo": "Mecânico",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Tipo": "Mecânico",
+    "Conexão": "Sem fio",
+    "Switch": "Red, hot-swap",
+    "Formato": "60%, Bluetooth/2,4 GHz"
+   },
+   "esq": 1
+  },
+  {
+   "id": "keychron-q2-qmk-65",
+   "cat": "teclado",
+   "brand": "Keychron",
+   "name": "Q2 QMK 65%",
+   "price": 1299,
+   "list": 1669,
+   "attr": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio",
+    "Switch": "Gateron Jupiter, hot-swap",
+    "Formato": "65%, alumínio, QMK/VIA"
+   }
+  },
+  {
+   "id": "corsair-k70-rgb-pro",
+   "cat": "teclado",
+   "brand": "Corsair",
+   "name": "K70 RGB PRO",
+   "price": 1099,
+   "list": 1369,
+   "attr": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio",
+    "Switch": "Cherry MX Red",
+    "Formato": "Completo, alumínio"
+   }
+  },
+  {
+   "id": "logitech-g915-lightspeed-tkl",
+   "cat": "teclado",
+   "brand": "Logitech",
+   "name": "G915 Lightspeed TKL",
+   "price": 1499,
+   "list": 1579,
+   "attr": {
+    "Tipo": "Mecânico",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Tipo": "Mecânico",
+    "Conexão": "Sem fio",
+    "Switch": "GL Tactile baixo perfil",
+    "Formato": "TKL, Lightspeed/Bluetooth"
+   }
+  },
+  {
+   "id": "logitech-k380-multi-device",
+   "cat": "teclado",
+   "brand": "Logitech",
+   "name": "K380 Multi-Device",
+   "price": 249,
+   "list": 259,
+   "attr": {
+    "Tipo": "Membrana",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Tipo": "Membrana",
+    "Conexão": "Sem fio",
+    "Layout": "ABNT2",
+    "Formato": "Compacto, 3 dispositivos"
+   }
+  },
+  {
+   "id": "razer-blackwidow-v4-pro",
+   "cat": "teclado",
+   "brand": "Razer",
+   "name": "BlackWidow V4 Pro",
+   "price": 1899,
+   "list": 2059,
+   "attr": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Mecânico",
+    "Conexão": "Com fio",
+    "Switch": "Razer Green",
+    "Formato": "Completo, dial e macros"
+   }
+  },
+  {
+   "id": "logitech-mx-keys-s-abnt2",
+   "cat": "teclado",
+   "brand": "Logitech",
+   "name": "MX Keys S ABNT2",
+   "price": 699,
+   "list": 779,
+   "attr": {
+    "Tipo": "Membrana",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Tipo": "Membrana",
+    "Conexão": "Sem fio",
+    "Layout": "ABNT2",
+    "Formato": "Completo, retroiluminado"
+   }
+  },
+  {
+   "id": "logitech-g213-prodigy",
+   "cat": "teclado",
+   "brand": "Logitech",
+   "name": "G213 Prodigy",
+   "price": 229,
+   "list": 259,
+   "attr": {
+    "Tipo": "Membrana",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Membrana",
+    "Conexão": "Com fio",
+    "Layout": "ABNT2",
+    "Formato": "Completo, RGB"
+   }
+  },
+  {
+   "id": "logitech-g203-lightsync",
+   "cat": "mouse",
+   "brand": "Logitech",
+   "name": "G203 Lightsync",
+   "price": 119,
+   "list": 149,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio",
+    "Sensor": "8.000 DPI",
+    "Peso": "85 g"
+   },
+   "hot": 1
+  },
+  {
+   "id": "razer-deathadder-essential",
+   "cat": "mouse",
+   "brand": "Razer",
+   "name": "DeathAdder Essential",
+   "price": 139,
+   "list": 149,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio",
+    "Sensor": "6.400 DPI",
+    "Peso": "96 g"
+   }
+  },
+  {
+   "id": "hyperx-pulsefire-core",
+   "cat": "mouse",
+   "brand": "HyperX",
+   "name": "Pulsefire Core",
+   "price": 149,
+   "list": 169,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio",
+    "Sensor": "6.200 DPI",
+    "Peso": "87 g"
+   }
+  },
+  {
+   "id": "redragon-cobra-m711",
+   "cat": "mouse",
+   "brand": "Redragon",
+   "name": "Cobra M711",
+   "price": 129,
+   "list": 139,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio",
+    "Sensor": "10.000 DPI",
+    "Peso": "105 g"
+   }
+  },
+  {
+   "id": "logitech-g305-lightspeed",
+   "cat": "mouse",
+   "brand": "Logitech",
+   "name": "G305 Lightspeed",
+   "price": 199,
+   "list": 249,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio",
+    "Sensor": "HERO 12.000 DPI",
+    "Bateria": "até 250 h (pilha AA)"
+   },
+   "hot": 1
+  },
+  {
+   "id": "razer-orochi-v2",
+   "cat": "mouse",
+   "brand": "Razer",
+   "name": "Orochi V2",
+   "price": 349,
+   "list": 429,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio",
+    "Sensor": "18.000 DPI",
+    "Bateria": "até 950 h"
+   }
+  },
+  {
+   "id": "logitech-g-pro-x-superlight-2",
+   "cat": "mouse",
+   "brand": "Logitech",
+   "name": "G Pro X Superlight 2",
+   "price": 999,
+   "list": 1179,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio",
+    "Sensor": "HERO 2 32.000 DPI",
+    "Peso": "60 g"
+   }
+  },
+  {
+   "id": "razer-viper-v3-pro",
+   "cat": "mouse",
+   "brand": "Razer",
+   "name": "Viper V3 Pro",
+   "price": 1199,
+   "list": 1259,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio",
+    "Sensor": "Focus Pro 35K",
+    "Peso": "54 g"
+   }
+  },
+  {
+   "id": "logitech-g502-hero",
+   "cat": "mouse",
+   "brand": "Logitech",
+   "name": "G502 HERO",
+   "price": 239,
+   "list": 259,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Com fio",
+    "Sensor": "HERO 25.600 DPI",
+    "Botões": "11 programáveis"
+   }
+  },
+  {
+   "id": "razer-deathadder-v3-pro",
+   "cat": "mouse",
+   "brand": "Razer",
+   "name": "DeathAdder V3 Pro",
+   "price": 899,
+   "list": 1059,
+   "attr": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Uso": "Gamer",
+    "Conexão": "Sem fio",
+    "Sensor": "Focus Pro 30K",
+    "Peso": "63 g"
+   }
+  },
+  {
+   "id": "logitech-mx-master-3s",
+   "cat": "mouse",
+   "brand": "Logitech",
+   "name": "MX Master 3S",
+   "price": 599,
+   "list": 639,
+   "attr": {
+    "Uso": "Produtividade",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Uso": "Produtividade",
+    "Conexão": "Sem fio",
+    "Sensor": "8.000 DPI, vidro",
+    "Cliques": "Silenciosos"
+   }
+  },
+  {
+   "id": "logitech-lift-vertical-ergonomico",
+   "cat": "mouse",
+   "brand": "Logitech",
+   "name": "Lift Vertical ergonômico",
+   "price": 449,
+   "list": 579,
+   "attr": {
+    "Uso": "Produtividade",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Uso": "Produtividade",
+    "Conexão": "Sem fio",
+    "Formato": "Vertical 57°",
+    "Bateria": "até 24 meses"
+   }
+  },
+  {
+   "id": "havit-h2002d",
+   "cat": "audio",
+   "brand": "Havit",
+   "name": "H2002d",
+   "price": 149,
+   "list": 159,
+   "attr": {
+    "Tipo": "Headset",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Headset",
+    "Conexão": "Com fio",
+    "Driver": "53 mm",
+    "Microfone": "Removível"
+   }
+  },
+  {
+   "id": "razer-blackshark-v2-x",
+   "cat": "audio",
+   "brand": "Razer",
+   "name": "BlackShark V2 X",
+   "price": 249,
+   "list": 289,
+   "attr": {
+    "Tipo": "Headset",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Headset",
+    "Conexão": "Com fio",
+    "Driver": "50 mm TriForce",
+    "Som": "7.1 surround"
+   }
+  },
+  {
+   "id": "hyperx-cloud-stinger-2",
+   "cat": "audio",
+   "brand": "HyperX",
+   "name": "Cloud Stinger 2",
+   "price": 249,
+   "list": 259,
+   "attr": {
+    "Tipo": "Headset",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Headset",
+    "Conexão": "Com fio",
+    "Driver": "50 mm",
+    "Som": "DTS Headphone:X"
+   }
+  },
+  {
+   "id": "hyperx-cloud-ii",
+   "cat": "audio",
+   "brand": "HyperX",
+   "name": "Cloud II",
+   "price": 449,
+   "list": 559,
+   "attr": {
+    "Tipo": "Headset",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Headset",
+    "Conexão": "Com fio",
+    "Driver": "53 mm",
+    "Som": "7.1 via USB"
+   },
+   "hot": 1
+  },
+  {
+   "id": "logitech-g435-lightspeed",
+   "cat": "audio",
+   "brand": "Logitech",
+   "name": "G435 Lightspeed",
+   "price": 399,
+   "list": 499,
+   "attr": {
+    "Tipo": "Headset",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Tipo": "Headset",
+    "Conexão": "Sem fio",
+    "Driver": "40 mm",
+    "Bateria": "até 18 h"
+   }
+  },
+  {
+   "id": "logitech-g-pro-x-wireless",
+   "cat": "audio",
+   "brand": "Logitech",
+   "name": "G Pro X Wireless",
+   "price": 1199,
+   "list": 1359,
+   "attr": {
+    "Tipo": "Headset",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Tipo": "Headset",
+    "Conexão": "Sem fio",
+    "Driver": "50 mm PRO-G",
+    "Bateria": "até 20 h"
+   }
+  },
+  {
+   "id": "razer-blackshark-v2-pro",
+   "cat": "audio",
+   "brand": "Razer",
+   "name": "BlackShark V2 Pro",
+   "price": 1199,
+   "list": 1329,
+   "attr": {
+    "Tipo": "Headset",
+    "Conexão": "Sem fio"
+   },
+   "specs": {
+    "Tipo": "Headset",
+    "Conexão": "Sem fio",
+    "Driver": "50 mm TriForce Titanium",
+    "Bateria": "até 70 h"
+   }
+  },
+  {
+   "id": "hyperx-quadcast-s",
+   "cat": "audio",
+   "brand": "HyperX",
+   "name": "QuadCast S",
+   "price": 899,
+   "list": 1019,
+   "attr": {
+    "Tipo": "Microfone",
+    "Conexão": "USB"
+   },
+   "specs": {
+    "Tipo": "Microfone",
+    "Conexão": "USB",
+    "Cápsula": "Condensador 14 mm",
+    "Padrões": "4 polares, RGB"
+   }
+  },
+  {
+   "id": "fifine-ampligame-a6v",
+   "cat": "audio",
+   "brand": "Fifine",
+   "name": "AmpliGame A6V",
+   "price": 199,
+   "list": 219,
+   "attr": {
+    "Tipo": "Microfone",
+    "Conexão": "USB"
+   },
+   "specs": {
+    "Tipo": "Microfone",
+    "Conexão": "USB",
+    "Cápsula": "Condensador",
+    "Extra": "RGB, suporte e pop filter"
+   }
+  },
+  {
+   "id": "edifier-r1000t4-24-w",
+   "cat": "audio",
+   "brand": "Edifier",
+   "name": "R1000T4 24 W",
+   "price": 449,
+   "list": 549,
+   "attr": {
+    "Tipo": "Caixa de som",
+    "Conexão": "Com fio"
+   },
+   "specs": {
+    "Tipo": "Caixa de som",
+    "Conexão": "Com fio",
+    "Potência": "24 W RMS",
+    "Entradas": "2× RCA"
+   }
+  }
+ ],
+ "promo": {
+  "f16": "asus-tuf-gaming-f16-rtx-4060",
+  "rtx5060": "gigabyte-geforce-rtx-5060-windforce-oc-8",
+  "fury32": "kingston-fury-beast-32-gb-216-ddr5-6000-",
+  "r7800": "amd-ryzen-7-7800x3d",
+  "lg27": "lg-ultragear-27gs75q-27-qhd-180-hz"
+ },
+ "kits": [
+  {
+   "name": "Kit Entrada AM4",
+   "desc": "Para jogar em 1080p gastando pouco",
+   "items": [
+    "amd-ryzen-5-5600",
+    "gigabyte-b550m-aorus-elite",
+    "corsair-vengeance-lpx-16-gb-28-ddr4-3200"
+   ]
+  },
+  {
+   "name": "Kit Gamer AM5",
+   "desc": "O combo mais pedido para jogos",
+   "items": [
+    "amd-ryzen-7-7800x3d",
+    "msi-pro-b650m-a-wifi",
+    "xpg-lancer-32-gb-216-ddr5-6000-mhz-cl30"
+   ]
+  },
+  {
+   "name": "Kit Intel custo-benefício",
+   "desc": "LGA1700 com memória DDR4",
+   "items": [
+    "intel-core-i5-14400f",
+    "asus-prime-b760m-a-d4",
+    "corsair-vengeance-lpx-32-gb-216-ddr4-320"
+   ]
+  }
+ ]
+}
