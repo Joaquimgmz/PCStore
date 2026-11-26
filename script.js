@@ -425,7 +425,7 @@ $('notes').addEventListener('click',e=>{
   const b=e.target.closest('[data-note]'); if(!b) return;
   const n=NOTES[+b.dataset.note]; closeAll();
   if(n.special==='esquenta'){go('ofertas',{sale:true});return}
-  if(n.special==='cupom'){coupon='TECH10';save();renderCart();openCart();toast('Cupom TECH10 aplicado no carrinho');return}
+  if(n.special==='cupom'){aplicarCupom('TECH10',true).then(()=>{openCart();toast('Cupom TECH10 aplicado no carrinho')});return}
   const p=PROMOS[n.p]; go(p.go.tab,{pid:p.go.pid,sale:p.go.sale});
 });
 /* shrink any marker line that doesn't fit its note */
